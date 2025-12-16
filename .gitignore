@@ -6,3 +6,4 @@ scripts/cache
 .env
 .env.*
 *.tsbuildinfo
+frontend/scripts/cache
