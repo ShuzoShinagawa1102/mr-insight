@@ -12,46 +12,10 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "1305",
-    "secCode5": "13050",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸ（年１回決算型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1306",
-    "secCode5": "13060",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＴＯＰＩＸ連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1308",
-    "secCode5": "13080",
-    "name": "上場インデックスファンドＴＯＰＩＸ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1309",
-    "secCode5": "13090",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＣｈｉｎａＡＭＣ・中国株式・上証５０連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "130A",
     "secCode5": "130A0",
     "name": "Ｖｅｒｉｔａｓ　Ｉｎ　Ｓｉｌｉｃｏ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1311",
-    "secCode5": "13110",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＴＯＰＩＸ　Ｃｏｒｅ　３０連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1319",
-    "secCode5": "13190",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経３００株価指数連動型上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "131A",
@@ -60,58 +24,10 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "1320",
-    "secCode5": "13200",
-    "name": "ｉＦｒｅｅＥＴＦ　日経２２５（年１回決算型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1321",
-    "secCode5": "13210",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経２２５連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1322",
-    "secCode5": "13220",
-    "name": "上場インデックスファンド中国Ａ株（パンダ）Ｅ　Ｆｕｎｄ　ＣＳＩ３００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1325",
-    "secCode5": "13250",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブラジル株式指数・ボベスパ連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1326",
-    "secCode5": "13260",
-    "name": "ＳＰＤＲゴールド・シェア",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1328",
-    "secCode5": "13280",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　金価格連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1329",
-    "secCode5": "13290",
-    "name": "ｉシェアーズ・コア　日経２２５　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "132A",
     "secCode5": "132A0",
     "name": "アイエヌホールディングス",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "1330",
-    "secCode5": "13300",
-    "name": "上場インデックスファンド２２５",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1332",
@@ -126,112 +42,16 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "133A",
-    "secCode5": "133A0",
-    "name": "グローバルＸ　超短期米国債　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1343",
-    "secCode5": "13430",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　東証ＲＥＩＴ　指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1345",
-    "secCode5": "13450",
-    "name": "上場インデックスファンドＪリート（東証ＲＥＩＴ指数）隔月分配型",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1346",
-    "secCode5": "13460",
-    "name": "ＭＡＸＩＳ　日経２２５上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1348",
-    "secCode5": "13480",
-    "name": "ＭＡＸＩＳ　トピックス上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1349",
-    "secCode5": "13490",
-    "name": "ＡＢＦ汎アジア債券インデックス・ファンド",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "134A",
     "secCode5": "134A0",
     "name": "アプライズ",
     "market": "PRO Market"
   },
   {
-    "secCode4": "1356",
-    "secCode5": "13560",
-    "name": "ＴＯＰＩＸベア２倍上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1357",
-    "secCode5": "13570",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経平均ダブルインバース・インデックス連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1358",
-    "secCode5": "13580",
-    "name": "上場インデックスファンド日経レバレッジ指数",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "135A",
     "secCode5": "135A0",
     "name": "ＶＲＡＩＮ　Ｓｏｌｕｔｉｏｎ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1360",
-    "secCode5": "13600",
-    "name": "日経平均ベア２倍上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1364",
-    "secCode5": "13640",
-    "name": "ｉシェアーズ　ＪＰＸ日経４００　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1365",
-    "secCode5": "13650",
-    "name": "ｉＦｒｅｅＥＴＦ　日経平均レバレッジ・インデックス",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1366",
-    "secCode5": "13660",
-    "name": "ｉＦｒｅｅＥＴＦ　日経平均ダブルインバース・インデックス",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1367",
-    "secCode5": "13670",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸレバレッジ（２倍）指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1368",
-    "secCode5": "13680",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸダブルインバース（－２倍）指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1369",
-    "secCode5": "13690",
-    "name": "Ｏｎｅ　ＥＴＦ　日経２２５",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "136A",
@@ -306,24 +126,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1397",
-    "secCode5": "13970",
-    "name": "ＳＭＤＡＭ　日経２２５上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1398",
-    "secCode5": "13980",
-    "name": "ＳＭＤＡＭ　東証ＲＥＩＴ指数上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1399",
-    "secCode5": "13990",
-    "name": "上場インデックスファンドＭＳＣＩ日本株高配当低ボラティリティ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "139A",
     "secCode5": "139A0",
     "name": "東日本地所",
@@ -340,12 +142,6 @@
     "secCode5": "14070",
     "name": "ウエストホールディングス",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "140A",
-    "secCode5": "140A0",
-    "name": "ｉＦｒｅｅＥＴＦ　米国１０年国債先物インバース",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1414",
@@ -498,46 +294,10 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "1456",
-    "secCode5": "14560",
-    "name": "ｉＦｒｅｅＥＴＦ　日経平均インバース・インデックス",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1457",
-    "secCode5": "14570",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸインバース（－１倍）指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1458",
-    "secCode5": "14580",
-    "name": "楽天ＥＴＦ‐日経レバレッジ指数連動型",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1459",
-    "secCode5": "14590",
-    "name": "楽天ＥＴＦ‐日経ダブルインバース指数連動型",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "145A",
     "secCode5": "145A0",
     "name": "Ｌ　ｉｓ　Ｂ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1466",
-    "secCode5": "14660",
-    "name": "ｉＦｒｅｅＥＴＦ　ＪＰＸ日経４００ダブルインバース・インデックス",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1469",
-    "secCode5": "14690",
-    "name": "ＪＰＸ日経４００ベア２倍上場投信（ダブルインバース）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "146A",
@@ -546,118 +306,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "1472",
-    "secCode5": "14720",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＪＰＸ日経４００ダブルインバース・インデックス連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1473",
-    "secCode5": "14730",
-    "name": "Ｏｎｅ　ＥＴＦ　トピックス",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1474",
-    "secCode5": "14740",
-    "name": "Ｏｎｅ　ＥＴＦ　ＪＰＸ日経４００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1475",
-    "secCode5": "14750",
-    "name": "ｉシェアーズ・コア　ＴＯＰＩＸ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1476",
-    "secCode5": "14760",
-    "name": "ｉシェアーズ・コア　Ｊリート　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1477",
-    "secCode5": "14770",
-    "name": "ｉシェアーズ　ＭＳＣＩ　日本株最小分散　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1478",
-    "secCode5": "14780",
-    "name": "ｉシェアーズ　ＭＳＣＩ　ジャパン高配当利回り　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1479",
-    "secCode5": "14790",
-    "name": "ｉＦｒｅｅＥＴＦ　ＭＳＣＩ日本株人材設備投資指数",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "147A",
     "secCode5": "147A0",
     "name": "ソラコム",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1480",
-    "secCode5": "14800",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　野村企業価値分配指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1481",
-    "secCode5": "14810",
-    "name": "上場インデックスファンド日本経済貢献株",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1482",
-    "secCode5": "14820",
-    "name": "ｉシェアーズ・コア　米国債７－１０年　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1483",
-    "secCode5": "14830",
-    "name": "ｉシェアーズ　ＪＰＸ／Ｓ＆Ｐ設備・人材投資　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1484",
-    "secCode5": "14840",
-    "name": "Ｏｎｅ　ＥＴＦ　ＪＰＸ／Ｓ＆Ｐ　設備・人材投資指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1485",
-    "secCode5": "14850",
-    "name": "ＭＡＸＩＳ　ＪＡＰＡＮ　設備・人材積極投資企業２００上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1486",
-    "secCode5": "14860",
-    "name": "上場インデックスファンド米国債券（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1487",
-    "secCode5": "14870",
-    "name": "上場インデックスファンド米国債券（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1488",
-    "secCode5": "14880",
-    "name": "ｉＦｒｅｅＥＴＦ　東証ＲＥＩＴ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1489",
-    "secCode5": "14890",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経平均高配当株５０指数連動型上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "148A",
@@ -666,58 +318,10 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1490",
-    "secCode5": "14900",
-    "name": "上場インデックスファンドＭＳＣＩ日本株高配当低ボラティリティ（βヘッジ）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "1491",
     "secCode5": "14910",
     "name": "中外鉱業",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "1493",
-    "secCode5": "14930",
-    "name": "Ｏｎｅ　ＥＴＦ　ＪＰＸ日経中小型",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1494",
-    "secCode5": "14940",
-    "name": "Ｏｎｅ　ＥＴＦ　高配当日本株",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1495",
-    "secCode5": "14950",
-    "name": "上場インデックスファンドアジアリート",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1496",
-    "secCode5": "14960",
-    "name": "ｉシェアーズ　米ドル建て投資適格社債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1497",
-    "secCode5": "14970",
-    "name": "ｉシェアーズ　米ドル建てハイイールド社債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1498",
-    "secCode5": "14980",
-    "name": "Ｏｎｅ　ＥＴＦ　ＥＳＧ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1499",
-    "secCode5": "14990",
-    "name": "ＭＡＸＩＳ日本株高配当７０マーケットニュートラル上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "149A",
@@ -768,88 +372,10 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1540",
-    "secCode5": "15400",
-    "name": "純金上場信託（現物国内保管型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1541",
-    "secCode5": "15410",
-    "name": "純プラチナ上場信託（現物国内保管型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1542",
-    "secCode5": "15420",
-    "name": "純銀上場信託（現物国内保管型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1543",
-    "secCode5": "15430",
-    "name": "純パラジウム上場信託（現物国内保管型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1545",
-    "secCode5": "15450",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＮＡＳＤＡＱ－１００（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1546",
-    "secCode5": "15460",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1547",
-    "secCode5": "15470",
-    "name": "上場インデックスファンド米国株式（Ｓ＆Ｐ５００）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "154A",
     "secCode5": "154A0",
     "name": "ＧＡＩＡ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "1550",
-    "secCode5": "15500",
-    "name": "ＭＡＸＩＳ　海外株式（ＭＳＣＩコクサイ）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1551",
-    "secCode5": "15510",
-    "name": "東証スタンダードＴＯＰ２０ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1554",
-    "secCode5": "15540",
-    "name": "上場インデックスファンド世界株式（ＭＳＣＩ　ＡＣＷＩ）除く日本",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1555",
-    "secCode5": "15550",
-    "name": "上場インデックスファンド豪州リート（Ｓ＆Ｐ／ＡＳＸ２００　Ａ－ＲＥＩＴ）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1557",
-    "secCode5": "15570",
-    "name": "ＳＰＤＲ　Ｓ＆Ｐ５００　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1559",
-    "secCode5": "15590",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　タイ株式ＳＥＴ５０指数連動型上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "155A",
@@ -858,82 +384,10 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1560",
-    "secCode5": "15600",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＦＴＳＥブルサ・マレーシアＫＬＣＩ連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1563",
-    "secCode5": "15630",
-    "name": "東証グロース・コアＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1566",
-    "secCode5": "15660",
-    "name": "上場インデックスファンド新興国債券",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1568",
-    "secCode5": "15680",
-    "name": "ＴＯＰＩＸブル２倍上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1569",
-    "secCode5": "15690",
-    "name": "ＴＯＰＩＸベア上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "156A",
     "secCode5": "156A0",
     "name": "マテリアルグループ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1570",
-    "secCode5": "15700",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経平均レバレッジ・インデックス連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1571",
-    "secCode5": "15710",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経平均インバース・インデックス連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1572",
-    "secCode5": "15720",
-    "name": "中国Ｈ株ブル２倍上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1573",
-    "secCode5": "15730",
-    "name": "中国Ｈ株ベア上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1577",
-    "secCode5": "15770",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　野村日本株高配当７０連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1578",
-    "secCode5": "15780",
-    "name": "上場インデックスファンド日経２２５（ミニ）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1579",
-    "secCode5": "15790",
-    "name": "日経平均ブル２倍上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "157A",
@@ -942,76 +396,10 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1580",
-    "secCode5": "15800",
-    "name": "日経平均ベア上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1585",
-    "secCode5": "15850",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸ　Ｅｘ－Ｆｉｎａｎｃｉａｌｓ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1586",
-    "secCode5": "15860",
-    "name": "上場インデックスファンドＴＯＰＩＸ　Ｅｘ－Ｆｉｎａｎｃｉａｌｓ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "158A",
     "secCode5": "158A0",
     "name": "エクセリ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "1591",
-    "secCode5": "15910",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＪＰＸ日経インデックス４００連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1592",
-    "secCode5": "15920",
-    "name": "上場インデックスファンドＪＰＸ日経インデックス４００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1593",
-    "secCode5": "15930",
-    "name": "ＭＡＸＩＳ　ＪＰＸ日経インデックス４００上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1595",
-    "secCode5": "15950",
-    "name": "ＮＺＡＭ　上場投信　東証ＲＥＩＴ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1596",
-    "secCode5": "15960",
-    "name": "ＮＺＡＭ　上場投信　ＴＯＰＩＸ　Ｅｘ－Ｆｉｎａｎｃｉａｌｓ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1597",
-    "secCode5": "15970",
-    "name": "ＭＡＸＩＳ　Ｊリート上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1599",
-    "secCode5": "15990",
-    "name": "ｉＦｒｅｅＥＴＦ　ＪＰＸ日経４００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "159A",
-    "secCode5": "159A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＪＰＸプライム１５０指数連動型上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1605",
@@ -1026,196 +414,16 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "1615",
-    "secCode5": "16150",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　東証銀行業株価指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1617",
-    "secCode5": "16170",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　食品（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1618",
-    "secCode5": "16180",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　エネルギー資源（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1619",
-    "secCode5": "16190",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　建設・資材（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "161A",
     "secCode5": "161A0",
     "name": "三葉",
     "market": "PRO Market"
   },
   {
-    "secCode4": "1620",
-    "secCode5": "16200",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　素材・化学（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1621",
-    "secCode5": "16210",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　医薬品（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1622",
-    "secCode5": "16220",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　自動車・輸送機（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1623",
-    "secCode5": "16230",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　鉄鋼・非鉄（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1624",
-    "secCode5": "16240",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　機械（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1625",
-    "secCode5": "16250",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　電機・精密（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1626",
-    "secCode5": "16260",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　情報通信・サービスその他（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1627",
-    "secCode5": "16270",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　電力・ガス（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1628",
-    "secCode5": "16280",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　運輸・物流（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1629",
-    "secCode5": "16290",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　商社・卸売（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "162A",
-    "secCode5": "162A0",
-    "name": "ＡＩセレクトメガトレンド　日本株（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1630",
-    "secCode5": "16300",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　小売（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1631",
-    "secCode5": "16310",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　銀行（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1632",
-    "secCode5": "16320",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　金融（除く銀行）（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1633",
-    "secCode5": "16330",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　不動産（ＴＯＰＩＸ－１７）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "163A",
-    "secCode5": "163A0",
-    "name": "半導体フォーカス　日本株（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "164A",
     "secCode5": "164A0",
     "name": "アップルパーク",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "1651",
-    "secCode5": "16510",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸ高配当４０指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1652",
-    "secCode5": "16520",
-    "name": "ｉＦｒｅｅＥＴＦ　ＭＳＣＩ日本株女性活躍指数（ＷＩＮ）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1653",
-    "secCode5": "16530",
-    "name": "ｉＦｒｅｅＥＴＦ　ＭＳＣＩジャパンＥＳＧセレクト・リーダーズ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1654",
-    "secCode5": "16540",
-    "name": "ｉＦｒｅｅＥＴＦ　ＦＴＳＥ　Ｂｌｏｓｓｏｍ　Ｊａｐａｎ　Ｉｎｄｅｘ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1655",
-    "secCode5": "16550",
-    "name": "ｉシェアーズ　Ｓ＆Ｐ　５００　米国株　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1656",
-    "secCode5": "16560",
-    "name": "ｉシェアーズ・コア　米国債７－１０年　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1657",
-    "secCode5": "16570",
-    "name": "ｉシェアーズ・コア　ＭＳＣＩ　先進国株（除く日本）ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1658",
-    "secCode5": "16580",
-    "name": "ｉシェアーズ・コア　ＭＳＣＩ　新興国株　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1659",
-    "secCode5": "16590",
-    "name": "ｉシェアーズ　米国リート　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1660",
-    "secCode5": "16600",
-    "name": "ＭＡＸＩＳ高利回りＪリート上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1662",
@@ -1236,184 +444,16 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "1671",
-    "secCode5": "16710",
-    "name": "ＷＴＩ原油価格連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1672",
-    "secCode5": "16720",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　金上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1673",
-    "secCode5": "16730",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　銀上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1674",
-    "secCode5": "16740",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　白金上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1675",
-    "secCode5": "16750",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　パラジウム上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1676",
-    "secCode5": "16760",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　貴金属バスケット上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1677",
-    "secCode5": "16770",
-    "name": "上場インデックスファンド海外債券（ＦＴＳＥ　ＷＧＢＩ）毎月分配型",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1678",
-    "secCode5": "16780",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　インド株式指数・Ｎｉｆｔｙ　５０　連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1679",
-    "secCode5": "16790",
-    "name": "Ｓｉｍｐｌｅ－Ｘ　ＮＹ　ダウ・ジョーンズ・インデックス上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "167A",
     "secCode5": "167A0",
     "name": "リョーサン菱洋ホールディングス",
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "1680",
-    "secCode5": "16800",
-    "name": "上場インデックスファンド海外先進国株式（ＭＳＣＩ－ＫＯＫＵＳＡＩ）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1681",
-    "secCode5": "16810",
-    "name": "上場インデックスファンド海外新興国株式（ＭＳＣＩ　エマージング）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1684",
-    "secCode5": "16840",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　ブロード上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1685",
-    "secCode5": "16850",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　エネルギー上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1686",
-    "secCode5": "16860",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　産業用金属上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1687",
-    "secCode5": "16870",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　農産物上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1688",
-    "secCode5": "16880",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　穀物上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1689",
-    "secCode5": "16890",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　天然ガス上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "168A",
     "secCode5": "168A0",
     "name": "イタミアート",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "1690",
-    "secCode5": "16900",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　ＷＴＩ　原油上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1691",
-    "secCode5": "16910",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　ガソリン上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1692",
-    "secCode5": "16920",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　アルミニウム上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1693",
-    "secCode5": "16930",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　銅上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1694",
-    "secCode5": "16940",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　ニッケル上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1695",
-    "secCode5": "16950",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　小麦上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1696",
-    "secCode5": "16960",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　とうもろこし上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1697",
-    "secCode5": "16970",
-    "name": "ＷｉｓｄｏｍＴｒｅｅ　大豆上場投資信託",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1698",
-    "secCode5": "16980",
-    "name": "上場インデックスファンド日本高配当（東証配当フォーカス１００）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "1699",
-    "secCode5": "16990",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＮＯＭＵＲＡ　原油インデックス連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "170A",
-    "secCode5": "170A0",
-    "name": "ＳＭＴ　ＥＴＦ日本好配当株アクティブ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1711",
@@ -1602,12 +642,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "178A",
-    "secCode5": "178A0",
-    "name": "グローバルＸ　革新的優良企業　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "1793",
     "secCode5": "17930",
     "name": "大本組",
@@ -1630,12 +664,6 @@
     "secCode5": "17990",
     "name": "第一建設工業",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "179A",
-    "secCode5": "179A0",
-    "name": "グローバルＸ　超長期米国債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1801",
@@ -1666,12 +694,6 @@
     "secCode5": "18080",
     "name": "長谷工コーポレーション",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "180A",
-    "secCode5": "180A0",
-    "name": "グローバルＸ　超長期米国債　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1810",
@@ -1710,12 +732,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "181A",
-    "secCode5": "181A0",
-    "name": "ＭＡＸＩＳ米国国債１－３年上場投信（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "1820",
     "secCode5": "18200",
     "name": "西松建設",
@@ -1752,12 +768,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "182A",
-    "secCode5": "182A0",
-    "name": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "1833",
     "secCode5": "18330",
     "name": "奥村組",
@@ -1768,12 +778,6 @@
     "secCode5": "18350",
     "name": "東鉄工業",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "183A",
-    "secCode5": "183A0",
-    "name": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1840",
@@ -1918,12 +922,6 @@
     "secCode5": "18880",
     "name": "若築建設",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "188A",
-    "secCode5": "188A0",
-    "name": "グローバルＸ　インド・トップ１０＋　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "1890",
@@ -2310,124 +1308,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "200A",
-    "secCode5": "200A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日経半導体株指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2011",
-    "secCode5": "20110",
-    "name": "ＳＭＤＡＭ　Ａｃｔｉｖｅ　ＥＴＦ　日本高配当株式",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2012",
-    "secCode5": "20120",
-    "name": "ｉシェアーズ　米国債０－３ヶ月　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2013",
-    "secCode5": "20130",
-    "name": "ｉシェアーズ　米国高配当株　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2014",
-    "secCode5": "20140",
-    "name": "ｉシェアーズ　米国連続増配株　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2015",
-    "secCode5": "20150",
-    "name": "ｉＦｒｅｅＥＴＦ　米国国債７－１０年（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2016",
-    "secCode5": "20160",
-    "name": "ｉＦｒｅｅＥＴＦ　米国国債７－１０年（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2017",
-    "secCode5": "20170",
-    "name": "ｉＦｒｅｅＥＴＦ　ＪＰＸプライム１５０",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2018",
-    "secCode5": "20180",
-    "name": "グローバルＸ　ＵＳ　ＲＥＩＴ・トップ２０　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2019",
-    "secCode5": "20190",
-    "name": "グローバルＸ　米国優先証券　ＥＴＦ（隔月分配型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "201A",
-    "secCode5": "201A0",
-    "name": "ｉシェアーズ　Ｎｉｆｔｙ　５０　インド株　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "202A",
     "secCode5": "202A0",
     "name": "豆蔵",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "2031",
-    "secCode5": "20310",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　香港ハンセン・ダブル・ブル　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2032",
-    "secCode5": "20320",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　香港ハンセン・ベア　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2033",
-    "secCode5": "20330",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　韓国ＫＯＳＰＩ・ダブル・ブル　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2034",
-    "secCode5": "20340",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　韓国ＫＯＳＰＩ・ベア　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2036",
-    "secCode5": "20360",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　金先物　ダブル・ブル　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2037",
-    "secCode5": "20370",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　金先物　ベア　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2038",
-    "secCode5": "20380",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ドバイ原油先物　ダブル・ブル　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2039",
-    "secCode5": "20390",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ドバイ原油先物　ベア　ＥＴＮ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "203A",
@@ -2436,70 +1320,10 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "2040",
-    "secCode5": "20400",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ＮＹダウ・ダブル・ブル・ドルヘッジ　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2041",
-    "secCode5": "20410",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ＮＹダウ・ベア・ドルヘッジ　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2042",
-    "secCode5": "20420",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　東証グロース市場２５０　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2043",
-    "secCode5": "20430",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ＳＴＯＸＸ　アセアン好配当５０（円、ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2044",
-    "secCode5": "20440",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　Ｓ＆Ｐ５００　配当貴族（ネットリターン）　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2045",
-    "secCode5": "20450",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　Ｓ＆Ｐ　シンガポール　リート（ネットリターン）　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2046",
-    "secCode5": "20460",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　インドＮｉｆｔｙ・ダブル・ブル　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2047",
-    "secCode5": "20470",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　インドＮｉｆｔｙ・ベア　ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2048",
-    "secCode5": "20480",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　野村日本株高配当７０（ドルヘッジ、ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "204A",
     "secCode5": "204A0",
     "name": "タイヨーパッケージ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "2050",
-    "secCode5": "20500",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　ニッチトップ　中小型日本株（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2053",
@@ -2526,64 +1350,10 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "2065",
-    "secCode5": "20650",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　日本株配当貴族（ドルヘッジ、ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2066",
-    "secCode5": "20660",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　東証ＲＥＩＴ（ドルヘッジ、ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2067",
-    "secCode5": "20670",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　野村ＡＩビジネス７０（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2068",
-    "secCode5": "20680",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　高ベータ３０（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2069",
-    "secCode5": "20690",
-    "name": "ＮＥＸＴ　ＮＯＴＥＳ　低ベータ５０（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "206A",
     "secCode5": "206A0",
     "name": "ＰＲＩＳＭ　ＢｉｏＬａｂ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "2070",
-    "secCode5": "20700",
-    "name": "スマートＥＳＧ３０女性活躍（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2071",
-    "secCode5": "20710",
-    "name": "スマートＥＳＧ３０総合（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2072",
-    "secCode5": "20720",
-    "name": "トップシェアインデックス（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2073",
-    "secCode5": "20730",
-    "name": "スマートＥＳＧ３０低カーボンリスク（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "207A",
@@ -2592,124 +1362,10 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "2080",
-    "secCode5": "20800",
-    "name": "ＰＢＲ１倍割れ解消推進ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2081",
-    "secCode5": "20810",
-    "name": "政策保有解消推進ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2082",
-    "secCode5": "20820",
-    "name": "投資家経営者一心同体ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2083",
-    "secCode5": "20830",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日本成長株アクティブ上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2084",
-    "secCode5": "20840",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　日本高配当株アクティブ上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2085",
-    "secCode5": "20850",
-    "name": "ＭＡＸＩＳ高配当日本株アクティブ上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2086",
-    "secCode5": "20860",
-    "name": "ＮＺＡＭ　上場投信　Ｓ＆Ｐ５００（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2087",
-    "secCode5": "20870",
-    "name": "ＮＺＡＭ　上場投信　ＮＡＳＤＡＱ１００（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2088",
-    "secCode5": "20880",
-    "name": "ＮＺＡＭ　上場投信　ＮＹダウ３０（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2089",
-    "secCode5": "20890",
-    "name": "ＮＺＡＭ　上場投信　ＤＡＸ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "208A",
     "secCode5": "208A0",
     "name": "構造計画研究所ホールディングス",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "2090",
-    "secCode5": "20900",
-    "name": "ＮＺＡＭ　上場投信　米国国債７－１０年（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2091",
-    "secCode5": "20910",
-    "name": "ＮＺＡＭ　上場投信　ドイツ国債７－１０年（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2092",
-    "secCode5": "20920",
-    "name": "ＮＺＡＭ　上場投信　フランス国債７－１０年（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2093",
-    "secCode5": "20930",
-    "name": "上場Ｔｒａｃｅｒｓ　米国債０－２年ラダー（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2094",
-    "secCode5": "20940",
-    "name": "東証ＲＥＩＴインバースＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2095",
-    "secCode5": "20950",
-    "name": "グローバルＸ　Ｓ＆Ｐ５００配当貴族　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2096",
-    "secCode5": "20960",
-    "name": "グローバルＸ　オフィス・Ｊ－ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2097",
-    "secCode5": "20970",
-    "name": "グローバルＸ　レジデンシャル・Ｊ－ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2098",
-    "secCode5": "20980",
-    "name": "グローバルＸ　ホテル＆リテール・Ｊ－ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "209A",
@@ -2728,12 +1384,6 @@
     "secCode5": "21090",
     "name": "ＤＭ三井製糖",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "210A",
-    "secCode5": "210A0",
-    "name": "ｉＦｒｅｅＥＴＦ　日経高利回りＲＥＩＴ指数",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2112",
@@ -2824,12 +1474,6 @@
     "secCode5": "21390",
     "name": "中広",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "213A",
-    "secCode5": "213A0",
-    "name": "上場インデックスファンド日経半導体株",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2146",
@@ -3102,12 +1746,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "221A",
-    "secCode5": "221A0",
-    "name": "ＭＡＸＩＳ日経半導体株上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2220",
     "secCode5": "22200",
     "name": "亀田製菓",
@@ -3148,168 +1786,6 @@
     "secCode5": "222A0",
     "name": "ＮＩＣＳ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "2235",
-    "secCode5": "22350",
-    "name": "上場インデックスファンド米国株式（ダウ平均）為替ヘッジなし",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2236",
-    "secCode5": "22360",
-    "name": "グローバルＸ　Ｓ＆Ｐ５００配当貴族ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2237",
-    "secCode5": "22370",
-    "name": "ｉＦｒｅｅＥＴＦ　Ｓ＆Ｐ５００レバレッジ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2238",
-    "secCode5": "22380",
-    "name": "ｉＦｒｅｅＥＴＦ　Ｓ＆Ｐ５００インバース",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2239",
-    "secCode5": "22390",
-    "name": "上場インデックスファンドＳ＆Ｐ５００先物レバレッジ２倍",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "223A",
-    "secCode5": "223A0",
-    "name": "グローバルＸ　ＡＩ＆ビッグデータ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2240",
-    "secCode5": "22400",
-    "name": "上場インデックスファンドＳ＆Ｐ５００先物インバース",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2241",
-    "secCode5": "22410",
-    "name": "ＭＡＸＩＳ　ＮＹダウ上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2242",
-    "secCode5": "22420",
-    "name": "ＭＡＸＩＳ　ＮＹダウ上場投信（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2243",
-    "secCode5": "22430",
-    "name": "グローバルＸ　半導体　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2244",
-    "secCode5": "22440",
-    "name": "グローバルＸ　ＵＳ　テック・トップ２０　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2245",
-    "secCode5": "22450",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ・ドイツ国債（７－１０年）インデックス（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2246",
-    "secCode5": "22460",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ・フランス国債（７－１０年）インデックス（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2247",
-    "secCode5": "22470",
-    "name": "ｉＦｒｅｅＥＴＦ　Ｓ＆Ｐ５００（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2248",
-    "secCode5": "22480",
-    "name": "ｉＦｒｅｅＥＴＦ　Ｓ＆Ｐ５００（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2249",
-    "secCode5": "22490",
-    "name": "ｉＦｒｅｅＥＴＦ　Ｓ＆Ｐ５００ダブルインバース",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "224A",
-    "secCode5": "224A0",
-    "name": "グローバルＸ　ウラニウムビジネス　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2250",
-    "secCode5": "22500",
-    "name": "ｉシェアーズ　ＭＳＣＩ　ジャパン気候変動アクション　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2251",
-    "secCode5": "22510",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＪＰＸ国債先物ダブルインバース指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2252",
-    "secCode5": "22520",
-    "name": "グローバルＸ　Ｍｏｒｎｉｎｇｓｔａｒ　米国中小型　Ｍｏａｔ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2253",
-    "secCode5": "22530",
-    "name": "グローバルＸ　スーパーディビィデンド－ＵＳ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2254",
-    "secCode5": "22540",
-    "name": "グローバルＸ　チャイナＥＶ＆バッテリー　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2255",
-    "secCode5": "22550",
-    "name": "ｉシェアーズ　米国債２０年超　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2256",
-    "secCode5": "22560",
-    "name": "ｉシェアーズ　米国総合債券　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2257",
-    "secCode5": "22570",
-    "name": "ｉシェアーズ　米ドル建て投資適格社債　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2258",
-    "secCode5": "22580",
-    "name": "ｉシェアーズ　米ドル建てハイイールド社債　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2259",
-    "secCode5": "22590",
-    "name": "ｉシェアーズ　フランス国債７－１０年　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2264",
@@ -3558,12 +2034,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "233A",
-    "secCode5": "233A0",
-    "name": "ｉＦｒｅｅＥＴＦ　インドＮｉｆｔｙ５０",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2340",
     "secCode5": "23400",
     "name": "極楽湯ホールディングス",
@@ -3600,12 +2070,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "234A",
-    "secCode5": "234A0",
-    "name": "グローバルＸ　ＭＳＣＩ　キャッシュフローキング－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2351",
     "secCode5": "23510",
     "name": "ＡＳＪ",
@@ -3628,18 +2092,6 @@
     "secCode5": "23590",
     "name": "コア",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "235A",
-    "secCode5": "235A0",
-    "name": "グローバルＸ　高配当３０－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "236A",
-    "secCode5": "236A0",
-    "name": "ｉシェアーズ　日本国債７－１０年　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2370",
@@ -3690,12 +2142,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "237A",
-    "secCode5": "237A0",
-    "name": "ｉシェアーズ　米国債２５年超　ロングデュレーション　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2384",
     "secCode5": "23840",
     "name": "ＳＢＳホールディングス",
@@ -3718,12 +2164,6 @@
     "secCode5": "23890",
     "name": "デジタルホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "238A",
-    "secCode5": "238A0",
-    "name": "ｉシェアーズ　米国債２５年超　ロングデュレーション　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2391",
@@ -4086,142 +2526,16 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "2510",
-    "secCode5": "25100",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　国内債券・ＮＯＭＵＲＡ－ＢＰＩ総合連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2511",
-    "secCode5": "25110",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　外国債券・ＦＴＳＥ世界国債インデックス（除く日本・為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2512",
-    "secCode5": "25120",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　外国債券・ＦＴＳＥ世界国債インデックス（除く日本・為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2513",
-    "secCode5": "25130",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　外国株式・ＭＳＣＩ－ＫＯＫＵＳＡＩ指数（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2514",
-    "secCode5": "25140",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　外国株式・ＭＳＣＩ－ＫＯＫＵＳＡＩ指数（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2515",
-    "secCode5": "25150",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　外国ＲＥＩＴ・Ｓ＆Ｐ先進国ＲＥＩＴ指数（除く日本・為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2516",
-    "secCode5": "25160",
-    "name": "東証グロース２５０ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2517",
-    "secCode5": "25170",
-    "name": "ＭＡＸＩＳ　Ｊリート・コア上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2518",
-    "secCode5": "25180",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＭＳＣＩ日本株女性活躍指数（セレクト）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2519",
-    "secCode5": "25190",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　新興国債券・Ｊ．Ｐ．モルガン・エマージング・マーケット・ボンド・インデックス・プラス（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "251A",
     "secCode5": "251A0",
     "name": "ニューロマジック",
     "market": "PRO Market"
   },
   {
-    "secCode4": "2520",
-    "secCode5": "25200",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　新興国株式・ＭＳＣＩエマージング・マーケット・インデックス（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2521",
-    "secCode5": "25210",
-    "name": "上場インデックスファンド米国株式（Ｓ＆Ｐ５００）為替ヘッジあり",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2522",
-    "secCode5": "25220",
-    "name": "ｉシェアーズ　オートメーション　＆　ロボット　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2523",
-    "secCode5": "25230",
-    "name": "ＭＡＸＩＳトピックス（除く金融）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2524",
-    "secCode5": "25240",
-    "name": "ＮＺＡＭ　上場投信　ＴＯＰＩＸ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2525",
-    "secCode5": "25250",
-    "name": "ＮＺＡＭ　上場投信　日経２２５",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2526",
-    "secCode5": "25260",
-    "name": "ＮＺＡＭ　上場投信　ＪＰＸ日経４００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2527",
-    "secCode5": "25270",
-    "name": "ＮＺＡＭ　上場投信　東証ＲＥＩＴ　Ｃｏｒｅ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2528",
-    "secCode5": "25280",
-    "name": "ｉＦｒｅｅＥＴＦ　東証ＲＥＩＴ　Ｃｏｒｅ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2529",
-    "secCode5": "25290",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　野村株主還元７０連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "252A",
     "secCode5": "252A0",
     "name": "ウェッジ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "2530",
-    "secCode5": "25300",
-    "name": "ＭＡＸＩＳ　ＨｕａＡｎ中国株式（上海１８０Ａ株）上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2531",
@@ -4254,118 +2568,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "2552",
-    "secCode5": "25520",
-    "name": "上場インデックスファンドＪリート（東証ＲＥＩＴ指数）隔月分配型（ミニ）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2553",
-    "secCode5": "25530",
-    "name": "Ｏｎｅ　ＥＴＦ　南方　中国Ａ株　ＣＳＩ５００",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2554",
-    "secCode5": "25540",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ米国投資適格社債（１－１０年）インデックス（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2555",
-    "secCode5": "25550",
-    "name": "東証ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2556",
-    "secCode5": "25560",
-    "name": "Ｏｎｅ　ＥＴＦ　東証ＲＥＩＴ指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2557",
-    "secCode5": "25570",
-    "name": "ＳＭＤＡＭ　トピックス上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2558",
-    "secCode5": "25580",
-    "name": "ＭＡＸＩＳ米国株式（Ｓ＆Ｐ５００）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2559",
-    "secCode5": "25590",
-    "name": "ＭＡＸＩＳ全世界株式（オール・カントリー）上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "255A",
     "secCode5": "255A0",
     "name": "ジーエルテクノホールディングス",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "2560",
-    "secCode5": "25600",
-    "name": "ＭＡＸＩＳカーボン・エフィシェント日本株上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2561",
-    "secCode5": "25610",
-    "name": "ｉシェアーズ・コア　日本国債　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2562",
-    "secCode5": "25620",
-    "name": "上場インデックスファンド米国株式（ダウ平均）為替ヘッジあり",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2563",
-    "secCode5": "25630",
-    "name": "ｉシェアーズ　Ｓ＆Ｐ　５００　米国株　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2564",
-    "secCode5": "25640",
-    "name": "グローバルＸ　ＭＳＣＩスーパーディビィデンド－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2565",
-    "secCode5": "25650",
-    "name": "グローバルＸ　ロジスティクス・Ｊ－ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2566",
-    "secCode5": "25660",
-    "name": "上場インデックスファンド日経ＥＳＧリート",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2567",
-    "secCode5": "25670",
-    "name": "ＮＺＡＭ　上場投信　Ｓ＆Ｐ／ＪＰＸカーボン・エフィシェント指数",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2568",
-    "secCode5": "25680",
-    "name": "上場インデックスファンド米国株式（ＮＡＳＤＡＱ１００）為替ヘッジなし",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2569",
-    "secCode5": "25690",
-    "name": "上場インデックスファンド米国株式（ＮＡＳＤＡＱ１００）為替ヘッジあり",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "256A",
@@ -4384,12 +2590,6 @@
     "secCode5": "25790",
     "name": "コカ・コーラ　ボトラーズジャパンホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "257A",
-    "secCode5": "257A0",
-    "name": "ＳＭＴ　ＥＴＦ日本株厳選投資アクティブ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2585",
@@ -4414,12 +2614,6 @@
     "secCode5": "25880",
     "name": "プレミアムウォーターホールディングス",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "258A",
-    "secCode5": "258A0",
-    "name": "ＳＭＴ　ＥＴＦ国内リート厳選投資アクティブ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2590",
@@ -4476,190 +2670,16 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "2620",
-    "secCode5": "26200",
-    "name": "ｉシェアーズ　米国債１－３年　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2621",
-    "secCode5": "26210",
-    "name": "ｉシェアーズ　米国債２０年超　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2622",
-    "secCode5": "26220",
-    "name": "ｉシェアーズ　米ドル建て新興国債券　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2623",
-    "secCode5": "26230",
-    "name": "ｉシェアーズ　ユーロ建て投資適格社債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2624",
-    "secCode5": "26240",
-    "name": "ｉＦｒｅｅＥＴＦ　日経２２５（年４回決算型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2625",
-    "secCode5": "26250",
-    "name": "ｉＦｒｅｅＥＴＦ　ＴＯＰＩＸ（年４回決算型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2626",
-    "secCode5": "26260",
-    "name": "グローバルＸ　デジタル・イノベーション－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2627",
-    "secCode5": "26270",
-    "name": "グローバルＸ　ｅコマース－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2628",
-    "secCode5": "26280",
-    "name": "ｉＦｒｅｅＥＴＦ　中国科創板５０（ＳＴＡＲ５０）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2629",
-    "secCode5": "26290",
-    "name": "ｉＦｒｅｅＥＴＦ　中国グレーターベイエリア・イノベーション１００（ＧＢＡ１００）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "262A",
     "secCode5": "262A0",
     "name": "インターメスティック",
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "2630",
-    "secCode5": "26300",
-    "name": "ＭＡＸＩＳ米国株式（Ｓ＆Ｐ５００）上場投信（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2631",
-    "secCode5": "26310",
-    "name": "ＭＡＸＩＳナスダック１００上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2632",
-    "secCode5": "26320",
-    "name": "ＭＡＸＩＳナスダック１００上場投信（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2633",
-    "secCode5": "26330",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　Ｓ＆Ｐ　５００　指数（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2634",
-    "secCode5": "26340",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　Ｓ＆Ｐ　５００　指数（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2636",
-    "secCode5": "26360",
-    "name": "グローバルＸ　ＭＳＣＩ　ガバナンス・クオリティ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2637",
-    "secCode5": "26370",
-    "name": "グローバルＸ　クリーンテック－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2638",
-    "secCode5": "26380",
-    "name": "グローバルＸ　ロボティクス＆ＡＩ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2639",
-    "secCode5": "26390",
-    "name": "グローバルＸ　バイオ＆メドテック－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "263A",
     "secCode5": "263A0",
     "name": "デジタルキューブ",
     "market": "PRO Market"
-  },
-  {
-    "secCode4": "2640",
-    "secCode5": "26400",
-    "name": "グローバルＸ　ゲーム＆アニメ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2641",
-    "secCode5": "26410",
-    "name": "グローバルＸ　グローバルリーダーズ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2642",
-    "secCode5": "26420",
-    "name": "ＳＭＴ　ＥＴＦカーボン・エフィシェント日本株",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2643",
-    "secCode5": "26430",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＭＳＣＩジャパンカントリー指数（セレクト）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2644",
-    "secCode5": "26440",
-    "name": "グローバルＸ　半導体関連－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2645",
-    "secCode5": "26450",
-    "name": "グローバルＸ　レジャー＆エンターテインメント－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2646",
-    "secCode5": "26460",
-    "name": "グローバルＸ　メタルビジネス－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2647",
-    "secCode5": "26470",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ米国国債（７－１０年）インデックス（為替ヘッジなし）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2648",
-    "secCode5": "26480",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ米国国債（７－１０年）インデックス（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2649",
-    "secCode5": "26490",
-    "name": "ｉシェアーズ　米国政府系機関ジニーメイＭＢＳ　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "264A",
@@ -4936,12 +2956,6 @@
     "secCode5": "27370",
     "name": "トーメンデバイス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "273A",
-    "secCode5": "273A0",
-    "name": "ＳＢＩ　サウジアラビア株式上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2742",
@@ -5244,106 +3258,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "282A",
-    "secCode5": "282A0",
-    "name": "グローバルＸ　半導体・トップ１０－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2831",
     "secCode5": "28310",
     "name": "はごろもフーズ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "2836",
-    "secCode5": "28360",
-    "name": "グローバルＸ　フィンテック－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2837",
-    "secCode5": "28370",
-    "name": "グローバルＸ　中小型リーダーズ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2838",
-    "secCode5": "28380",
-    "name": "ＭＡＸＩＳ米国国債７－１０年上場投信（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2839",
-    "secCode5": "28390",
-    "name": "ＭＡＸＩＳ米国国債７－１０年上場投信（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "283A",
-    "secCode5": "283A0",
-    "name": "グローバルＸ　ＵＳ　テック・配当貴族　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2840",
-    "secCode5": "28400",
-    "name": "ｉＦｒｅｅＥＴＦ　ＮＡＳＤＡＱ１００（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2841",
-    "secCode5": "28410",
-    "name": "ｉＦｒｅｅＥＴＦ　ＮＡＳＤＡＱ１００（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2842",
-    "secCode5": "28420",
-    "name": "ｉＦｒｅｅＥＴＦ　ＮＡＳＤＡＱ１００インバース",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2843",
-    "secCode5": "28430",
-    "name": "上場インデックスファンド豪州国債（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2844",
-    "secCode5": "28440",
-    "name": "上場インデックスファンド豪州国債（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2845",
-    "secCode5": "28450",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＮＡＳＤＡＱ－１００（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2846",
-    "secCode5": "28460",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2847",
-    "secCode5": "28470",
-    "name": "グローバルＸ　新成長インフラ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2848",
-    "secCode5": "28480",
-    "name": "グローバルＸ　ＭＳＣＩ　気候変動対応－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2849",
-    "secCode5": "28490",
-    "name": "グローバルＸ　Ｍｏｒｎｉｎｇｓｔａｒ　高配当　ＥＳＧ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "284A",
@@ -5352,130 +3270,16 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "2851",
-    "secCode5": "28510",
-    "name": "ｉシェアーズ　ＭＳＣＩ　ジャパンＳＲＩ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2852",
-    "secCode5": "28520",
-    "name": "ｉシェアーズ　グリーンＪリート　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2853",
-    "secCode5": "28530",
-    "name": "ｉシェアーズ　気候リスク調整世界国債　ＥＴＦ（除く日本・為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2854",
-    "secCode5": "28540",
-    "name": "グローバルＸ　テック・トップ２０－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2855",
-    "secCode5": "28550",
-    "name": "グローバルＸ　グリーン・Ｊ－ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2856",
-    "secCode5": "28560",
-    "name": "ｉシェアーズ　米国債３－７年　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2857",
-    "secCode5": "28570",
-    "name": "ｉシェアーズ　ドイツ国債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2858",
-    "secCode5": "28580",
-    "name": "グローバルＸ　日経２２５　カバード・コール　ＥＴＦ（プレミアム再投資型）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2859",
-    "secCode5": "28590",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ユーロ・ストックス５０指数（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "285A",
     "secCode5": "285A0",
     "name": "キオクシアホールディングス",
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "2860",
-    "secCode5": "28600",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ドイツ株式・ＤＡＸ（為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2861",
-    "secCode5": "28610",
-    "name": "上場インデックスファンドフランス国債（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2862",
-    "secCode5": "28620",
-    "name": "上場インデックスファンドフランス国債（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2864",
-    "secCode5": "28640",
-    "name": "グローバルＸ　ロジスティクス・ＲＥＩＴ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2865",
-    "secCode5": "28650",
-    "name": "グローバルＸ　ＮＡＳＤＡＱ１００・カバード・コール　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2866",
-    "secCode5": "28660",
-    "name": "グローバルＸ　米国優先証券　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2867",
-    "secCode5": "28670",
-    "name": "グローバルＸ　自動運転＆ＥＶ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2868",
-    "secCode5": "28680",
-    "name": "グローバルＸ　Ｓ＆Ｐ５００・カバード・コール　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "2869",
-    "secCode5": "28690",
-    "name": "ｉＦｒｅｅＥＴＦ　ＮＡＳＤＡＱ１００レバレッジ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "286A",
     "secCode5": "286A0",
     "name": "ユカリア",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "2870",
-    "secCode5": "28700",
-    "name": "ｉＦｒｅｅＥＴＦ　ＮＡＳＤＡＱ１００ダブルインバース",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "2871",
@@ -5748,18 +3552,6 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "294A",
-    "secCode5": "294A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＭＳＣＩジャパン気候変動指数（セレクト）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "295A",
-    "secCode5": "295A0",
-    "name": "Ｏｎｅ　ＥＴＦ　ＦＴＳＥ・サウジアラビア・インデックス",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "2961",
     "secCode5": "29610",
     "name": "日本調理機",
@@ -5784,18 +3576,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "2971",
-    "secCode5": "29710",
-    "name": "エスコンジャパンリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "2972",
-    "secCode5": "29720",
-    "name": "サンケイリアルエステート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "2975",
     "secCode5": "29750",
     "name": "スター・マイカ・ホールディングス",
@@ -5806,12 +3586,6 @@
     "secCode5": "29780",
     "name": "ツクルバ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "2979",
-    "secCode5": "29790",
-    "name": "ＳＯＳｉＬＡ物流リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "297A",
@@ -5860,12 +3634,6 @@
     "secCode5": "29860",
     "name": "ＬＡホールディングス",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "2989",
-    "secCode5": "29890",
-    "name": "東海道リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "298A",
@@ -6456,12 +4224,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "313A",
-    "secCode5": "313A0",
-    "name": "ｉシェアーズ　Ｓ＆Ｐ　５００　トップ　２０　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3140",
     "secCode5": "31400",
     "name": "ＢＲＵＮＯ",
@@ -6478,12 +4240,6 @@
     "secCode5": "31480",
     "name": "クリエイトＳＤホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "314A",
-    "secCode5": "314A0",
-    "name": "ｉシェアーズ　ゴールド　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3150",
@@ -6528,12 +4284,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "315A",
-    "secCode5": "315A0",
-    "name": "グローバルＸ　銀行　高配当－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3160",
     "secCode5": "31600",
     "name": "大光",
@@ -6568,12 +4318,6 @@
     "secCode5": "31690",
     "name": "ミサワ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "316A",
-    "secCode5": "316A0",
-    "name": "ｉＦｒｅｅＥＴＦ　ＦＡＮＧ＋",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3172",
@@ -6682,12 +4426,6 @@
     "secCode5": "31890",
     "name": "ＡＮＡＰホールディングス",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "318A",
-    "secCode5": "318A0",
-    "name": "ＶＩＸ短期先物指数ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3190",
@@ -6810,12 +4548,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "3226",
-    "secCode5": "32260",
-    "name": "三井不動産アコモデーションファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "322A",
     "secCode5": "322A0",
     "name": "ヒメジ理化",
@@ -6832,12 +4564,6 @@
     "secCode5": "32320",
     "name": "三重交通グループホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "3234",
-    "secCode5": "32340",
-    "name": "森ヒルズリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3236",
@@ -6894,12 +4620,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3249",
-    "secCode5": "32490",
-    "name": "産業ファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "324A",
     "secCode5": "324A0",
     "name": "ブッキングリゾート",
@@ -6936,12 +4656,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3269",
-    "secCode5": "32690",
-    "name": "アドバンス・レジデンス投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "326A",
     "secCode5": "326A0",
     "name": "ａｅｒｏ　ｌａｂ　ｉｎｔｅｒｎａｔｉｏｎａｌ",
@@ -6966,34 +4680,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3279",
-    "secCode5": "32790",
-    "name": "アクティビア・プロパティーズ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3280",
     "secCode5": "32800",
     "name": "エストラスト",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "3281",
-    "secCode5": "32810",
-    "name": "ＧＬＰ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3282",
-    "secCode5": "32820",
-    "name": "コンフォリア・レジデンシャル投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3283",
-    "secCode5": "32830",
-    "name": "日本プロロジスリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3284",
@@ -7008,12 +4698,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3287",
-    "secCode5": "32870",
-    "name": "星野リゾート・リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3288",
     "secCode5": "32880",
     "name": "オープンハウスグループ",
@@ -7026,28 +4710,10 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "328A",
-    "secCode5": "328A0",
-    "name": "グローバルＸ　プライシングパワー・リーダーズ－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "3290",
-    "secCode5": "32900",
-    "name": "Ｏｎｅリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3291",
     "secCode5": "32910",
     "name": "飯田グループホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "3292",
-    "secCode5": "32920",
-    "name": "イオンリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3293",
@@ -7060,18 +4726,6 @@
     "secCode5": "32940",
     "name": "イーグランド",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "3295",
-    "secCode5": "32950",
-    "name": "ヒューリックリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3296",
-    "secCode5": "32960",
-    "name": "日本リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3297",
@@ -7108,12 +4762,6 @@
     "secCode5": "33060",
     "name": "日本製麻",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "3309",
-    "secCode5": "33090",
-    "name": "積水ハウス・リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "330A",
@@ -7584,12 +5232,6 @@
     "market": "PRO Market"
   },
   {
-    "secCode4": "3451",
-    "secCode5": "34510",
-    "name": "トーセイ・リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3452",
     "secCode5": "34520",
     "name": "ビーロット",
@@ -7602,28 +5244,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3455",
-    "secCode5": "34550",
-    "name": "ヘルスケア＆メディカル投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3457",
     "secCode5": "34570",
     "name": "Ａｎｄ　Ｄｏホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "3459",
-    "secCode5": "34590",
-    "name": "サムティ・レジデンシャル投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "345A",
-    "secCode5": "345A0",
-    "name": "高配当成長　日本株（ネットリターン）ＥＴＮ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3461",
@@ -7632,28 +5256,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3462",
-    "secCode5": "34620",
-    "name": "野村不動産マスターファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3463",
-    "secCode5": "34630",
-    "name": "いちごホテルリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3465",
     "secCode5": "34650",
     "name": "ケイアイスター不動産",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "3466",
-    "secCode5": "34660",
-    "name": "ラサールロジポート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3467",
@@ -7662,40 +5268,10 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "3468",
-    "secCode5": "34680",
-    "name": "スターアジア不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3469",
     "secCode5": "34690",
     "name": "デュアルタップ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "346A",
-    "secCode5": "346A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　Ｓ＆Ｐ　５００　半導体・半導体製造装置３５％キャップ指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "3470",
-    "secCode5": "34700",
-    "name": "マリモ地方創生リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3471",
-    "secCode5": "34710",
-    "name": "三井不動産ロジスティクスパーク投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3472",
-    "secCode5": "34720",
-    "name": "日本ホテル＆レジデンシャル投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3474",
@@ -7708,12 +5284,6 @@
     "secCode5": "34750",
     "name": "グッドコムアセット",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "3476",
-    "secCode5": "34760",
-    "name": "投資法人みらい",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3477",
@@ -7740,12 +5310,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "3481",
-    "secCode5": "34810",
-    "name": "三菱地所物流リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3482",
     "secCode5": "34820",
     "name": "ロードスターキャピタル",
@@ -7770,28 +5334,10 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "3487",
-    "secCode5": "34870",
-    "name": "ＣＲＥロジスティクスファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "3488",
-    "secCode5": "34880",
-    "name": "セントラル・リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
     "secCode4": "3489",
     "secCode5": "34890",
     "name": "フェイスネットワーク",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "348A",
-    "secCode5": "348A0",
-    "name": "ＭＡＸＩＳ読売３３３日本株上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3490",
@@ -7804,12 +5350,6 @@
     "secCode5": "34910",
     "name": "ＧＡ　ｔｅｃｈｎｏｌｏｇｉｅｓ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "3492",
-    "secCode5": "34920",
-    "name": "タカラレーベン不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "3494",
@@ -7834,12 +5374,6 @@
     "secCode5": "34980",
     "name": "霞ヶ関キャピタル",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "349A",
-    "secCode5": "349A0",
-    "name": "ＳＭＤＡＭ　Ａｃｔｉｖｅ　ＥＴＦ　日本グロース株式",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3501",
@@ -7980,12 +5514,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "354A",
-    "secCode5": "354A0",
-    "name": "ｉＦｒｅｅＥＴＦ　ブルームバーグ日本株高配当５０指数",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3550",
     "secCode5": "35500",
     "name": "スタジオアタオ",
@@ -8076,12 +5604,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "356A",
-    "secCode5": "356A0",
-    "name": "グローバルＸ　Ｓ＆Ｐ５００　キャッシュフロー・トップ１００　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3571",
     "secCode5": "35710",
     "name": "ソトー",
@@ -8164,12 +5686,6 @@
     "secCode5": "36080",
     "name": "ＴＳＩホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "360A",
-    "secCode5": "360A0",
-    "name": "東証ＲＥＩＴ　Ｃｏｒｅ　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3611",
@@ -8274,12 +5790,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "363A",
-    "secCode5": "363A0",
-    "name": "ｉＦｒｅｅＥＴＦ　英国ＦＴＳＥ１００",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3640",
     "secCode5": "36400",
     "name": "電算",
@@ -8320,12 +5830,6 @@
     "secCode5": "36490",
     "name": "ファインデックス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "364A",
-    "secCode5": "364A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　Ｓ＆Ｐ　５００　配当貴族指数連動型上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3652",
@@ -8748,12 +6252,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "376A",
-    "secCode5": "376A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ブルームバーグ米国国債（７－１０年）インデックス（７５％為替ヘッジあり）連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3771",
     "secCode5": "37710",
     "name": "システムリサーチ",
@@ -8850,12 +6348,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "379A",
-    "secCode5": "379A0",
-    "name": "グローバルＸ　Ｓ＆Ｐ５００　ＥＴＦ（ダイナミック・プロテクション）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3800",
     "secCode5": "38000",
     "name": "ユニリタ",
@@ -8886,12 +6378,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "380A",
-    "secCode5": "380A0",
-    "name": "グローバルＸ　チャイナテック　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3810",
     "secCode5": "38100",
     "name": "サイバーステップ",
@@ -8916,12 +6402,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "381A",
-    "secCode5": "381A0",
-    "name": "ｉＦｒｅｅＥＴＦ　米国国債３－５年（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3823",
     "secCode5": "38230",
     "name": "ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ",
@@ -8938,12 +6418,6 @@
     "secCode5": "38260",
     "name": "システムインテグレータ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "382A",
-    "secCode5": "382A0",
-    "name": "ｉＦｒｅｅＥＴＦ　米国国債３－５年（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3834",
@@ -8974,12 +6448,6 @@
     "secCode5": "38390",
     "name": "ＯＤＫソリューションズ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "383A",
-    "secCode5": "383A0",
-    "name": "ＭＡＸＩＳ　Ｓ＆Ｐ５００均等ウェイト上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3840",
@@ -9318,12 +6786,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "392A",
-    "secCode5": "392A0",
-    "name": "ｉシェアーズ　ＮＡＳＤＡＱ　トップ　３０　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3930",
     "secCode5": "39300",
     "name": "はてな",
@@ -9432,12 +6894,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "394A",
-    "secCode5": "394A0",
-    "name": "業界改革厳選ＥＴＦテレビ業界",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "3950",
     "secCode5": "39500",
     "name": "ザ・パック",
@@ -9472,12 +6928,6 @@
     "secCode5": "39580",
     "name": "笹徳印刷",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "395A",
-    "secCode5": "395A0",
-    "name": "業界改革厳選ＥＴＦ地銀",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3961",
@@ -9526,12 +6976,6 @@
     "secCode5": "39690",
     "name": "エイトレッド",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "396A",
-    "secCode5": "396A0",
-    "name": "業界改革厳選ＥＴＦ　ＲＥＩＴイベント・ドリブン",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "3970",
@@ -9654,12 +7098,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "399A",
-    "secCode5": "399A0",
-    "name": "上場インデックスファンド日経平均高配当株５０",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4004",
     "secCode5": "40040",
     "name": "レゾナック・ホールディングス",
@@ -9724,12 +7162,6 @@
     "secCode5": "40190",
     "name": "スタメン",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "401A",
-    "secCode5": "401A0",
-    "name": "霞ヶ関ホテルリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "4020",
@@ -9844,12 +7276,6 @@
     "secCode5": "40470",
     "name": "関東電化工業",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "404A",
-    "secCode5": "404A0",
-    "name": "グローバルＸ　チャイナテック・トップ１０　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4051",
@@ -10026,12 +7452,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "408A",
-    "secCode5": "408A0",
-    "name": "ｉシェアーズ　ＡＩ　グローバル・イノベーション　アクティブ　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4091",
     "secCode5": "40910",
     "name": "日本酸素ホールディングス",
@@ -10174,18 +7594,6 @@
     "secCode5": "41250",
     "name": "三和油化工業",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "412A",
-    "secCode5": "412A0",
-    "name": "ＮＥＸＴ　ＦＵＮＤＳ　ＴＩＰ　ＦａｃｔＳｅｔ　台湾イノベイティブ・テクノロジー５０指数連動型上場投信",
-    "market": "ETF・ETN"
-  },
-  {
-    "secCode4": "413A",
-    "secCode5": "413A0",
-    "name": "ｉＦｒｅｅＥＴＦ　キャセイ台湾テックリーダー指数",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "414A",
@@ -10584,12 +7992,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "424A",
-    "secCode5": "424A0",
-    "name": "グローバルＸ　ゴールド　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4251",
     "secCode5": "42510",
     "name": "恵和",
@@ -10618,12 +8020,6 @@
     "secCode5": "42590",
     "name": "エクサウィザーズ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "425A",
-    "secCode5": "425A0",
-    "name": "グローバルＸ　ゴールド　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4260",
@@ -10660,12 +8056,6 @@
     "secCode5": "42650",
     "name": "Ｉｎｓｔｉｔｕｔｉｏｎ　ｆｏｒ　ａ　Ｇｌｏｂａｌ　Ｓｏｃｉｅｔｙ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "426A",
-    "secCode5": "426A0",
-    "name": "ニッセイＥＴＦ　Ｓ＆Ｐ５００イコール・ウェイト（為替ヘッジなし）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4270",
@@ -10930,12 +8320,6 @@
     "secCode5": "43560",
     "name": "応用技術",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "435A",
-    "secCode5": "435A0",
-    "name": "ｉＦｒｅｅＥＴＦ　日本株配当ローテーション戦略",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4360",
@@ -11382,12 +8766,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "443A",
-    "secCode5": "443A0",
-    "name": "ｉＦｒｅｅＥＴＦ　東証ＲＥＩＴ指数（２・５・８・１１月決算型）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4440",
     "secCode5": "44400",
     "name": "ヴィッツ",
@@ -11544,12 +8922,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "447A",
-    "secCode5": "447A0",
-    "name": "ステート・ストリート・スパイダー　ゴールド　ＥＴＦ（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4480",
     "secCode5": "44800",
     "name": "メドレー",
@@ -11596,12 +8968,6 @@
     "secCode5": "44880",
     "name": "ＡＩ　ｉｎｓｉｄｅ",
     "market": "グロース（内国株式）"
-  },
-  {
-    "secCode4": "448A",
-    "secCode5": "448A0",
-    "name": "ステート・ストリート・スパイダー　ゴールド　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4490",
@@ -11658,12 +9024,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "449A",
-    "secCode5": "449A0",
-    "name": "ステート・ストリート・スパイダー　Ｓ＆Ｐ５００　ＥＴＦ（為替ヘッジなし）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4502",
     "secCode5": "45020",
     "name": "武田薬品工業",
@@ -11688,12 +9048,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "450A",
-    "secCode5": "450A0",
-    "name": "ステート・ストリート・スパイダー　Ｓ＆Ｐ５００　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4512",
     "secCode5": "45120",
     "name": "わかもと製薬",
@@ -11710,12 +9064,6 @@
     "secCode5": "45190",
     "name": "中外製薬",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "451A",
-    "secCode5": "451A0",
-    "name": "ステート・ストリート・スパイダー　Ｓ＆Ｐ５００高配当株　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4521",
@@ -11754,12 +9102,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "452A",
-    "secCode5": "452A0",
-    "name": "ｉシェアーズ　Ｓ＆Ｐ　５００　プレミアムインカム　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4530",
     "secCode5": "45300",
     "name": "久光製薬",
@@ -11794,12 +9136,6 @@
     "secCode5": "45390",
     "name": "日本ケミファ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "453A",
-    "secCode5": "453A0",
-    "name": "ｉシェアーズ　米国債２０年超　プレミアムインカム　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4540",
@@ -12072,12 +9408,6 @@
     "market": "グロース（内国株式）"
   },
   {
-    "secCode4": "459A",
-    "secCode5": "459A0",
-    "name": "野村高利回りＪリート指数ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4611",
     "secCode5": "46110",
     "name": "大日本塗料",
@@ -12118,12 +9448,6 @@
     "secCode5": "46190",
     "name": "日本特殊塗料",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "461A",
-    "secCode5": "461A0",
-    "name": "ＭＡＸＩＳ日本株高配当ＳＭＡＲＴ５０上場投信",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4620",
@@ -12252,12 +9576,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "465A",
-    "secCode5": "465A0",
-    "name": "グローバルＸ　日経平均株主還元４０－日本株式　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4661",
     "secCode5": "46610",
     "name": "オリエンタルランド",
@@ -12300,12 +9618,6 @@
     "market": "プライム（内国株式）"
   },
   {
-    "secCode4": "466A",
-    "secCode5": "466A0",
-    "name": "グローバルＸ　防衛テック　ＥＴＦ",
-    "market": "ETF・ETN"
-  },
-  {
     "secCode4": "4671",
     "secCode5": "46710",
     "name": "ファルコホールディングス",
@@ -12340,12 +9652,6 @@
     "secCode5": "46790",
     "name": "田谷",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "467A",
-    "secCode5": "467A0",
-    "name": "グローバルＸ　米ドル建て投資適格社債　ＥＴＦ（為替ヘッジあり）",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4680",
@@ -12388,12 +9694,6 @@
     "secCode5": "46890",
     "name": "ＬＩＮＥヤフー",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "468A",
-    "secCode5": "468A0",
-    "name": "グローバルＸ　米ドル建て投資適格社債　ＥＴＦ",
-    "market": "ETF・ETN"
   },
   {
     "secCode4": "4690",
@@ -22794,12 +20094,6 @@
     "market": "スタンダード（内国株式）"
   },
   {
-    "secCode4": "8301",
-    "secCode5": "83010",
-    "name": "日本銀行　出資証券",
-    "market": "出資証券"
-  },
-  {
     "secCode4": "8304",
     "secCode5": "83040",
     "name": "あおぞら銀行",
@@ -23050,12 +20344,6 @@
     "secCode5": "84180",
     "name": "山口フィナンシャルグループ",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "8421",
-    "secCode5": "84210",
-    "name": "信金中央金庫　優先出資証券",
-    "market": "出資証券"
   },
   {
     "secCode4": "8424",
@@ -23740,150 +21028,6 @@
     "secCode5": "89460",
     "name": "ＡＳＩＡＮ　ＳＴＡＲ",
     "market": "スタンダード（内国株式）"
-  },
-  {
-    "secCode4": "8951",
-    "secCode5": "89510",
-    "name": "日本ビルファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8952",
-    "secCode5": "89520",
-    "name": "ジャパンリアルエステイト投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8953",
-    "secCode5": "89530",
-    "name": "日本都市ファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8954",
-    "secCode5": "89540",
-    "name": "オリックス不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8955",
-    "secCode5": "89550",
-    "name": "日本プライムリアルティ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8956",
-    "secCode5": "89560",
-    "name": "ＮＴＴ都市開発リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8957",
-    "secCode5": "89570",
-    "name": "東急リアル・エステート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8958",
-    "secCode5": "89580",
-    "name": "グローバル・ワン不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8960",
-    "secCode5": "89600",
-    "name": "ユナイテッド・アーバン投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8961",
-    "secCode5": "89610",
-    "name": "森トラストリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8963",
-    "secCode5": "89630",
-    "name": "インヴィンシブル投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8964",
-    "secCode5": "89640",
-    "name": "フロンティア不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8966",
-    "secCode5": "89660",
-    "name": "平和不動産リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8967",
-    "secCode5": "89670",
-    "name": "日本ロジスティクスファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8968",
-    "secCode5": "89680",
-    "name": "福岡リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8972",
-    "secCode5": "89720",
-    "name": "ＫＤＸ不動産投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8975",
-    "secCode5": "89750",
-    "name": "いちごオフィスリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8976",
-    "secCode5": "89760",
-    "name": "大和証券オフィス投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8977",
-    "secCode5": "89770",
-    "name": "阪急阪神リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8979",
-    "secCode5": "89790",
-    "name": "スターツプロシード投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8984",
-    "secCode5": "89840",
-    "name": "大和ハウスリート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8985",
-    "secCode5": "89850",
-    "name": "ジャパン・ホテル・リート投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8986",
-    "secCode5": "89860",
-    "name": "大和証券リビング投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "8987",
-    "secCode5": "89870",
-    "name": "ジャパンエクセレント投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "8995",
@@ -24724,36 +21868,6 @@
     "secCode5": "92790",
     "name": "ギフトホールディングス",
     "market": "プライム（内国株式）"
-  },
-  {
-    "secCode4": "9282",
-    "secCode5": "92820",
-    "name": "いちごグリーンインフラ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "9284",
-    "secCode5": "92840",
-    "name": "カナディアン・ソーラー・インフラ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "9285",
-    "secCode5": "92850",
-    "name": "東京インフラ・エネルギー投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "9286",
-    "secCode5": "92860",
-    "name": "エネクス・インフラ投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
-  },
-  {
-    "secCode4": "9287",
-    "secCode5": "92870",
-    "name": "ジャパン・インフラファンド投資法人",
-    "market": "REIT・ベンチャーファンド・カントリーファンド・インフラファンド"
   },
   {
     "secCode4": "9301",

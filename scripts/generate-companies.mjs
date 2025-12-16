@@ -25,17 +25,10 @@ function normalizeSecCode4(code) {
 
 function isTseMarket(market) {
   const m = normalizeMarket(market);
-  return (
-    m.includes("プライム") ||
-    m.includes("スタンダード") ||
-    m.includes("グロース") ||
-    m.includes("ETF・ETN") ||
-    m.includes("PRO Market") ||
-    m.includes("REIT") ||
-    m.includes("出資証券") ||
-    m.includes("東証") ||
-    m.includes("TSE")
-  );
+  // “東証上場企業”に寄せる（ETF/REIT等を除外し、株式上場を対象にする）
+  if (m.includes("PRO Market")) return true;
+  if (m.includes("内国株式") || m.includes("外国株式")) return true;
+  return false;
 }
 
 async function downloadToCache() {

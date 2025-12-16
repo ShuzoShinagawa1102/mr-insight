@@ -1,6 +1,8 @@
 import type { EdinetDocument } from "../types";
 
-const EDINET_BASE = "/edinet/api/v2";
+const EDINET_BASE = import.meta.env.DEV
+  ? "/edinet/api/v2"
+  : "https://disclosure.edinet-fsa.go.jp/api/v2";
 const SUBSCRIPTION_KEY_HEADER = "Ocp-Apim-Subscription-Key";
 
 type EdinetErrorResponse = { statusCode: number; message: string };
