@@ -12,7 +12,9 @@ import {
   Stack,
   TextField,
   Typography,
+  useMediaQuery,
 } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { getIndexedDocs, hasIndexYear, type IndexedDoc } from "../data/yuhouIndex";
 import type { Company } from "../types";
@@ -40,6 +42,8 @@ export default function YearDownloadsDialog(props: {
 }) {
   const company = props.company;
   const apiKey = props.apiKey;
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const currentYear = new Date().getFullYear();
   const years = useMemo(
@@ -112,7 +116,13 @@ export default function YearDownloadsDialog(props: {
   }
 
   return (
-    <Dialog open={props.open} onClose={props.onClose} fullWidth maxWidth="md">
+    <Dialog
+      open={props.open}
+      onClose={props.onClose}
+      fullWidth
+      maxWidth="md"
+      fullScreen={isMobile}
+    >
       <DialogTitle>年度ごとにダウンロード</DialogTitle>
       <DialogContent>
         <Stack spacing={2} sx={{ mt: 1 }}>
@@ -162,7 +172,9 @@ export default function YearDownloadsDialog(props: {
           <Box
             sx={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gridTemplateColumns: isMobile
+                ? "repeat(1, minmax(0, 1fr))"
+                : "repeat(2, minmax(0, 1fr))",
               gap: 1,
             }}
           >
