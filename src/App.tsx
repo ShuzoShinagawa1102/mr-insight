@@ -138,13 +138,6 @@ export default function App() {
             <Logo height={isMobile ? 56 : 72} />
           </Box>
           <Box sx={{ flex: 1 }} />
-          <Link
-            href="https://disclosure.edinet-fsa.go.jp/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            EDINET
-          </Link>
         </Toolbar>
       </AppBar>
 
@@ -267,4 +260,3 @@ export default function App() {
     </Box>
   );
 }
-

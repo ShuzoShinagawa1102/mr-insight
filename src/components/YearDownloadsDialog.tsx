@@ -72,12 +72,18 @@ export default function YearDownloadsDialog(props: {
     if (existing?.kind === "missing") return [];
 
     setStatusByYear((prev) => ({ ...prev, [year]: { kind: "checking" } }));
-    const docs = await getIndexedDocs({ company, year, includeCorrections });
-    setStatusByYear((prev) => ({
-      ...prev,
-      [year]: docs.length > 0 ? { kind: "available", docs } : { kind: "none" },
-    }));
-    return docs;
+    try {
+      const docs = await getIndexedDocs({ company, year, includeCorrections });
+      setStatusByYear((prev) => ({
+        ...prev,
+        [year]: docs.length > 0 ? { kind: "available", docs } : { kind: "none" },
+      }));
+      return docs;
+    } catch (e) {
+      console.error("Failed to load index for year", year, e);
+      setStatusByYear((prev) => ({ ...prev, [year]: { kind: "missing" } }));
+      return [];
+    }
   }
 
   useEffect(() => {
