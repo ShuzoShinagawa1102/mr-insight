@@ -23,10 +23,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: package-lock.json
+          cache-dependency-path: frontend/package-lock.json
       - name: Install
+        working-directory: frontend
         run: npm ci
       - name: Build
+        working-directory: frontend
         env:
           BASE_PATH: "/mr-insight/"
           VITE_EDINET_API_KEY: ${{ secrets.VITE_EDINET_API_KEY }}
@@ -34,7 +36,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: frontend/dist
 
   deploy:
     needs: build

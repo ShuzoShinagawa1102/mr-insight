@@ -158,7 +158,7 @@ export default function App() {
       <Box sx={{ p: 2 }}>
         {!apiKey.trim() ? (
           <Alert severity="error" sx={{ mb: 2 }}>
-            EDINET APIキーが未設定です。ローカルなら `.env.local` の
+            EDINET APIキーが未設定です。ローカルなら `frontend/.env.local` の
             `VITE_EDINET_API_KEY`、Pagesなら GitHub Secrets を確認してください。
           </Alert>
         ) : null}
