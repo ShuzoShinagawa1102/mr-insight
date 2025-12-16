@@ -19,7 +19,7 @@ import {
 import { useTheme } from "@mui/material/styles";
 import { DataGrid, type GridColDef } from "@mui/x-data-grid";
 import { useMemo, useState } from "react";
-import { downloadDocumentBlob } from "./api/edinet";
+import { documentDownloadUrl, downloadDocumentBlob } from "./api/edinet";
 import Logo from "./components/Logo";
 import YearDownloadsDialog, {
   type YearDownloadOptions,
@@ -105,12 +105,26 @@ export default function App() {
         const filename = sanitizeFileName(
           `${selectedCompany.secCode4}_${selectedCompany.name}_${submitted}_${desc}_${doc.docID}.${ext}`,
         );
-        const blob = await downloadDocumentBlob(
-          doc.docID,
-          options.fileType,
-          apiKey,
-        );
-        await downloadBlob(blob, filename);
+        try {
+          const blob = await downloadDocumentBlob(
+            doc.docID,
+            options.fileType,
+            apiKey,
+          );
+          await downloadBlob(blob, filename);
+        } catch (e) {
+          const url = documentDownloadUrl(doc.docID, options.fileType, apiKey);
+          const a = document.createElement("a");
+          a.href = url;
+          a.target = "_blank";
+          a.rel = "noreferrer";
+          a.click();
+          const msg = e instanceof Error ? e.message : String(e);
+          setSnackbar({
+            severity: "info",
+            message: `直接ダウンロードに切替: ${msg}`,
+          });
+        }
       }
 
       setSnackbar({

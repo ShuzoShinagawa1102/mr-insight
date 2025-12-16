@@ -57,16 +57,23 @@ export default function YearDownloadsDialog(props: {
 
   const canUse = Boolean(company && apiKey.trim());
 
+  const statusRef = useRef<Record<number, YearStatus>>({});
   const runIdRef = useRef(0);
+  const lastKeyRef = useRef<string>("");
+
+  useEffect(() => {
+    statusRef.current = statusByYear;
+  }, [statusByYear]);
 
   async function ensureYearLoaded(year: number): Promise<IndexedDoc[]> {
     if (!company) return [];
+
     if (!hasIndexYear(year)) {
       setStatusByYear((prev) => ({ ...prev, [year]: { kind: "missing" } }));
       return [];
     }
 
-    const existing = statusByYear[year];
+    const existing = statusRef.current[year];
     if (existing?.kind === "available") return existing.docs;
     if (existing?.kind === "none") return [];
     if (existing?.kind === "missing") return [];
@@ -93,7 +100,11 @@ export default function YearDownloadsDialog(props: {
     runIdRef.current += 1;
     const runId = runIdRef.current;
 
-    setStatusByYear({});
+    const key = `${company.secCode4}:${includeCorrections}`;
+    if (lastKeyRef.current !== key) {
+      lastKeyRef.current = key;
+      setStatusByYear({});
+    }
 
     const load = async () => {
       for (const year of years) {
@@ -140,9 +151,7 @@ export default function YearDownloadsDialog(props: {
           ) : null}
 
           {!apiKey.trim() ? (
-            <Alert severity="error">
-              EDINET APIキーが未設定です（`.env.local` の `VITE_EDINET_API_KEY`）。
-            </Alert>
+            <Alert severity="error">EDINET APIキーが未設定です。</Alert>
           ) : null}
 
           <Stack direction="row" spacing={2} alignItems="center" flexWrap="wrap">
@@ -159,17 +168,13 @@ export default function YearDownloadsDialog(props: {
             </TextField>
             <Button
               variant={includeCorrections ? "contained" : "outlined"}
-              onClick={() => {
-                setIncludeCorrections(true);
-              }}
+              onClick={() => setIncludeCorrections(true)}
             >
               訂正含む
             </Button>
             <Button
               variant={!includeCorrections ? "contained" : "outlined"}
-              onClick={() => {
-                setIncludeCorrections(false);
-              }}
+              onClick={() => setIncludeCorrections(false)}
             >
               訂正除外
             </Button>
@@ -234,3 +239,4 @@ export default function YearDownloadsDialog(props: {
     </Dialog>
   );
 }
+

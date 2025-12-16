@@ -48,14 +48,21 @@ export async function downloadDocumentBlob(
   apiKey: string,
   signal?: AbortSignal,
 ): Promise<Blob> {
-  const response = await fetch(`${EDINET_BASE}/documents/${docID}?type=${type}`, {
-    headers: {
-      [SUBSCRIPTION_KEY_HEADER]: apiKey,
-    },
-    signal,
-  });
+  const url = import.meta.env.DEV
+    ? `${EDINET_BASE}/documents/${docID}?type=${type}`
+    : `${EDINET_BASE}/documents/${docID}?type=${type}&subscription-key=${encodeURIComponent(apiKey)}`;
+  const headers = import.meta.env.DEV
+    ? { [SUBSCRIPTION_KEY_HEADER]: apiKey }
+    : undefined;
+  const response = await fetch(url, { headers, signal });
   if (!response.ok) {
     throw new Error(`EDINET: HTTP ${response.status}`);
   }
   return response.blob();
+}
+
+export function documentDownloadUrl(docID: string, type: 1 | 2, apiKey: string): string {
+  return import.meta.env.DEV
+    ? `${EDINET_BASE}/documents/${docID}?type=${type}`
+    : `${EDINET_BASE}/documents/${docID}?type=${type}&subscription-key=${encodeURIComponent(apiKey)}`;
 }
