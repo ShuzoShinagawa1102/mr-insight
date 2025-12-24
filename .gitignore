@@ -7,3 +7,4 @@ scripts/cache
 .env.*
 *.tsbuildinfo
 frontend/scripts/cache
+**/java-practice/out/
