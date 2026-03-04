@@ -18,3 +18,6 @@ npm run dev
 
 `main` への push で GitHub Actions がビルドし、GitHub Pages にデプロイします。
 
+## ここで開発中の成果物を確認できます．
+
+- https://shuzoshinagawa1102.github.io/mr-insight/
