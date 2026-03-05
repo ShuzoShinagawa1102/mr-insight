@@ -1,0 +1,619 @@
+﻿No,日本語名,英語名
+1,コーポレートガバナンス,Corporate Governance
+2,取締役会,Board of Directors
+3,監査役会,Board of Auditors
+4,指名委員会,Nomination Committee
+5,報酬委員会,Compensation Committee
+6,監査委員会,Audit Committee
+7,独立社外取締役,Independent Outside Director
+8,社外取締役,Outside Director
+9,社外監査役,Outside Auditor
+10,代表取締役,Representative Director
+11,取締役会長,Chairman of the Board
+12,代表取締役社長,President and CEO
+13,最高経営責任者,Chief Executive Officer (CEO)
+14,最高財務責任者,Chief Financial Officer (CFO)
+15,最高執行責任者,Chief Operating Officer (COO)
+16,最高情報責任者,Chief Information Officer (CIO)
+17,最高技術責任者,Chief Technology Officer (CTO)
+18,最高サステナビリティ責任者,Chief Sustainability Officer (CSO)
+19,内部統制,Internal Control
+20,内部監査,Internal Audit
+21,コンプライアンス,Compliance
+22,コーポレートガバナンス・コード,Corporate Governance Code
+23,スチュワードシップ・コード,Stewardship Code
+24,株主総会,General Meeting of Shareholders
+25,定時株主総会,Annual General Meeting (AGM)
+26,臨時株主総会,Extraordinary General Meeting (EGM)
+27,取締役の選任,Election of Directors
+28,役員報酬,Executive Compensation
+29,ストックオプション,Stock Option
+30,株式報酬,Stock-based Compensation
+31,三委員会設置会社,Company with Three Committees
+32,監査等委員会設置会社,Company with Audit and Supervisory Committee
+33,指名委員会等設置会社,"Company with Nominating Committee, etc."
+34,監査役設置会社,Company with Board of Auditors
+35,任意の指名委員会,Voluntary Nomination Committee
+36,任意の報酬委員会,Voluntary Compensation Committee
+37,情報開示,Information Disclosure
+38,適時開示,Timely Disclosure
+39,フェア・ディスクロージャー・ルール,Fair Disclosure Rule
+40,反社会的勢力,Anti-Social Forces
+41,利益相反,Conflict of Interest
+42,関連当事者取引,Related Party Transaction
+43,財務諸表,Financial Statements
+44,連結財務諸表,Consolidated Financial Statements
+45,個別財務諸表,Non-consolidated Financial Statements
+46,貸借対照表,Balance Sheet
+47,損益計算書,Income Statement / Profit and Loss Statement
+48,キャッシュフロー計算書,Cash Flow Statement
+49,株主資本等変動計算書,Statement of Changes in Equity
+50,包括利益計算書,Statement of Comprehensive Income
+51,注記事項,Notes to Financial Statements
+52,会計方針,Accounting Policy
+53,IFRS,International Financial Reporting Standards
+54,J-GAAP,Japanese Generally Accepted Accounting Principles
+55,US-GAAP,US Generally Accepted Accounting Principles
+56,監査意見,Audit Opinion
+57,適正意見,Unqualified Opinion
+58,限定付き適正意見,Qualified Opinion
+59,不適正意見,Adverse Opinion
+60,意見不表明,Disclaimer of Opinion
+61,会計監査人,Independent Auditor
+62,四半期報告書,Quarterly Report
+63,有価証券報告書,Annual Securities Report
+64,決算短信,Financial Results Flash Report
+65,事業報告書,Business Report
+66,統合報告書,Integrated Report
+67,連結決算,Consolidated Settlement of Accounts
+68,単体決算,Non-consolidated Settlement of Accounts
+69,売上高,Net Sales / Revenue
+70,売上原価,Cost of Sales
+71,売上総利益,Gross Profit
+72,販売費及び一般管理費,"Selling, General and Administrative Expenses (SG&A)"
+73,営業利益,Operating Income / Operating Profit
+74,営業外収益,Non-operating Income
+75,営業外費用,Non-operating Expenses
+76,経常利益,Ordinary Income
+77,特別利益,Extraordinary Income
+78,特別損失,Extraordinary Loss
+79,税引前当期純利益,Income before Income Taxes
+80,法人税等,Income Taxes
+81,当期純利益,Net Income / Net Profit
+82,親会社株主に帰属する当期純利益,Net Income Attributable to Owners of Parent
+83,非支配株主に帰属する当期純利益,Net Income Attributable to Non-controlling Interests
+84,包括利益,Comprehensive Income
+85,EBITDA,"Earnings Before Interest, Taxes, Depreciation and Amortization"
+86,EBIT,Earnings Before Interest and Taxes
+87,研究開発費,Research and Development Expenses
+88,減価償却費,Depreciation and Amortization
+89,のれん償却額,Amortization of Goodwill
+90,為替差損益,Foreign Exchange Gain/Loss
+91,持分法投資損益,Equity in Earnings/Losses of Affiliates
+92,少数株主損益,Non-controlling Interests (P&L)
+93,資産,Assets
+94,流動資産,Current Assets
+95,固定資産,Non-current Assets / Fixed Assets
+96,繰延資産,Deferred Assets
+97,負債,Liabilities
+98,流動負債,Current Liabilities
+99,固定負債,Non-current Liabilities / Long-term Liabilities
+100,純資産,Net Assets
+101,株主資本,Shareholders' Equity
+102,資本金,Common Stock / Share Capital
+103,資本剰余金,Capital Surplus
+104,利益剰余金,Retained Earnings
+105,自己株式,Treasury Stock / Treasury Shares
+106,その他の包括利益累計額,Accumulated Other Comprehensive Income
+107,非支配株主持分,Non-controlling Interests (B/S)
+108,現金及び現金同等物,Cash and Cash Equivalents
+109,売掛金,Accounts Receivable / Trade Receivables
+110,受取手形,Notes Receivable
+111,棚卸資産,Inventories
+112,商品及び製品,Merchandise and Products
+113,仕掛品,Work in Process
+114,原材料及び貯蔵品,Raw Materials and Supplies
+115,前払費用,Prepaid Expenses
+116,有形固定資産,"Property, Plant and Equipment (PP&E)"
+117,建物及び構築物,Buildings and Structures
+118,機械装置及び運搬具,"Machinery, Equipment and Vehicles"
+119,土地,Land
+120,建設仮勘定,Construction in Progress
+121,無形固定資産,Intangible Assets
+122,のれん,Goodwill
+123,ソフトウエア,Software
+124,特許権,Patent Rights
+125,商標権,Trademark Rights
+126,投資その他の資産,Investments and Other Assets
+127,投資有価証券,Investment Securities
+128,長期貸付金,Long-term Loans Receivable
+129,繰延税金資産,Deferred Tax Assets
+130,買掛金,Accounts Payable / Trade Payables
+131,支払手形,Notes Payable
+132,短期借入金,Short-term Loans Payable
+133,コマーシャルペーパー,Commercial Paper
+134,一年内返済予定の長期借入金,Current Portion of Long-term Loans Payable
+135,未払金,Accrued Expenses
+136,未払費用,Accrued Liabilities
+137,未払法人税等,Income Taxes Payable
+138,前受金,Advance Received
+139,社債,Corporate Bonds / Debentures
+140,長期借入金,Long-term Loans Payable
+141,退職給付引当金,Retirement Benefit Liability
+142,繰延税金負債,Deferred Tax Liabilities
+143,営業活動によるキャッシュフロー,Cash Flow from Operating Activities
+144,投資活動によるキャッシュフロー,Cash Flow from Investing Activities
+145,財務活動によるキャッシュフロー,Cash Flow from Financing Activities
+146,フリーキャッシュフロー,Free Cash Flow
+147,設備投資,Capital Expenditure (CapEx)
+148,運転資本,Working Capital
+149,ROE,Return on Equity
+150,ROA,Return on Assets
+151,ROIC,Return on Invested Capital
+152,ROI,Return on Investment
+153,自己資本利益率,Return on Equity (ROE)
+154,総資産利益率,Return on Assets (ROA)
+155,投下資本利益率,Return on Invested Capital (ROIC)
+156,売上高営業利益率,Operating Profit Margin
+157,売上高経常利益率,Ordinary Income Margin
+158,売上高純利益率,Net Profit Margin
+159,売上高総利益率,Gross Profit Margin
+160,EPS,Earnings Per Share
+161,BPS,Book Value Per Share
+162,1株当たり当期純利益,Earnings Per Share (EPS)
+163,1株当たり純資産,Book Value Per Share (BPS)
+164,1株当たり配当金,Dividend Per Share (DPS)
+165,PER,Price-to-Earnings Ratio
+166,PBR,Price-to-Book Ratio
+167,株価収益率,Price-to-Earnings Ratio (PER)
+168,株価純資産倍率,Price-to-Book Ratio (PBR)
+169,配当性向,Dividend Payout Ratio
+170,配当利回り,Dividend Yield
+171,自己資本比率,Equity Ratio
+172,流動比率,Current Ratio
+173,当座比率,Quick Ratio
+174,有利子負債,Interest-bearing Debt
+175,D/Eレシオ,Debt-to-Equity Ratio
+176,ネットD/Eレシオ,Net Debt-to-Equity Ratio
+177,インタレスト・カバレッジ・レシオ,Interest Coverage Ratio
+178,総資本回転率,Total Asset Turnover
+179,棚卸資産回転率,Inventory Turnover
+180,売上債権回転率,Accounts Receivable Turnover
+181,WACC,Weighted Average Cost of Capital
+182,資本コスト,Cost of Capital
+183,株主資本コスト,Cost of Equity
+184,負債コスト,Cost of Debt
+185,時価総額,Market Capitalization
+186,発行済株式総数,Total Number of Issued Shares
+187,自己株式取得,Share Buyback / Treasury Stock Acquisition
+188,株式分割,Stock Split
+189,株式併合,Reverse Stock Split
+190,増資,Capital Increase / Share Issuance
+191,公募増資,Public Offering
+192,第三者割当増資,Third-party Allotment
+193,配当金,Dividend
+194,中間配当,Interim Dividend
+195,期末配当,Year-end Dividend
+196,記念配当,Commemorative Dividend
+197,特別配当,Special Dividend
+198,株主優待,Shareholder Perks / Shareholder Benefits
+199,株主還元,Shareholder Returns
+200,総還元性向,Total Return Payout Ratio
+201,エンタープライズバリュー,Enterprise Value (EV)
+202,EV/EBITDA,EV/EBITDA Multiple
+203,M&A,Mergers and Acquisitions
+204,合併,Merger
+205,吸収合併,Absorption Merger
+206,新設合併,Consolidation Merger
+207,買収,Acquisition
+208,株式取得,Share Acquisition
+209,事業譲渡,Business Transfer
+210,会社分割,Company Split / Demerger
+211,吸収分割,Absorption-type Demerger
+212,新設分割,Incorporation-type Demerger
+213,子会社化,Subsidiarization
+214,完全子会社,Wholly-owned Subsidiary
+215,持株会社,Holding Company
+216,連結子会社,Consolidated Subsidiary
+217,持分法適用関連会社,Equity-method Affiliated Company
+218,グループ会社,Group Company
+219,TOB,Tender Offer / Takeover Bid
+220,MBO,Management Buyout
+221,LBO,Leveraged Buyout
+222,PMI,Post-Merger Integration
+223,デューデリジェンス,Due Diligence
+224,バリュエーション,Valuation
+225,減損テスト,Impairment Test
+226,減損損失,Impairment Loss
+227,シナジー,Synergy
+228,中期経営計画,Medium-term Management Plan
+229,経営戦略,Management Strategy
+230,事業戦略,Business Strategy
+231,成長戦略,Growth Strategy
+232,収益構造改革,Earnings Structure Reform
+233,事業ポートフォリオ,Business Portfolio
+234,コアコンピタンス,Core Competence
+235,競争優位性,Competitive Advantage
+236,バリューチェーン,Value Chain
+237,サプライチェーン,Supply Chain
+238,ビジネスモデル,Business Model
+239,DX,Digital Transformation (DX)
+240,デジタルトランスフォーメーション,Digital Transformation
+241,AI活用,AI Utilization
+242,データドリブン経営,Data-driven Management
+243,オムニチャネル,Omnichannel
+244,プラットフォームビジネス,Platform Business
+245,サブスクリプション,Subscription
+246,BtoB,Business-to-Business (B2B)
+247,BtoC,Business-to-Consumer (B2C)
+248,SaaS,Software as a Service
+249,IP戦略,Intellectual Property Strategy
+250,アライアンス,Alliance / Strategic Partnership
+251,合弁会社,Joint Venture
+252,海外展開,Overseas Expansion
+253,グローバル化,Globalization
+254,新規事業,New Business
+255,既存事業,Existing Business
+256,コスト削減,Cost Reduction
+257,業務効率化,Operational Efficiency Improvement
+258,サステナビリティ,Sustainability
+259,ESG,"Environmental, Social, and Governance"
+260,SDGs,Sustainable Development Goals
+261,CSR,Corporate Social Responsibility
+262,CSV,Creating Shared Value
+263,カーボンニュートラル,Carbon Neutral
+264,ネットゼロ,Net Zero
+265,温室効果ガス排出量,Greenhouse Gas Emissions
+266,GHG排出量,GHG Emissions
+267,スコープ1,Scope 1 Emissions
+268,スコープ2,Scope 2 Emissions
+269,スコープ3,Scope 3 Emissions
+270,再生可能エネルギー,Renewable Energy
+271,TCFD,Task Force on Climate-related Financial Disclosures
+272,TNFD,Taskforce on Nature-related Financial Disclosures
+273,SBT,Science Based Targets
+274,RE100,Renewable Energy 100%
+275,気候変動リスク,Climate Change Risk
+276,移行リスク,Transition Risk
+277,物理的リスク,Physical Risk
+278,生物多様性,Biodiversity
+279,サーキュラーエコノミー,Circular Economy
+280,人権デューデリジェンス,Human Rights Due Diligence
+281,サプライチェーンマネジメント,Supply Chain Management
+282,社会的責任調達,Responsible Procurement
+283,非財務情報,Non-financial Information
+284,ESGスコア,ESG Score
+285,SRI,Socially Responsible Investment
+286,ESG投資,ESG Investment
+287,人的資本,Human Capital
+288,人的資本経営,Human Capital Management
+289,従業員数,Number of Employees
+290,役員,Officer / Executive
+291,管理職,Management
+292,女性管理職比率,Ratio of Female Managers
+293,男女賃金格差,Gender Pay Gap
+294,ダイバーシティ＆インクルージョン,Diversity and Inclusion (D&I)
+295,ダイバーシティ,Diversity
+296,インクルージョン,Inclusion
+297,エクイティ,Equity
+298,エンゲージメント,Employee Engagement
+299,従業員満足度,Employee Satisfaction
+300,健康経営,Health Management
+301,ウェルビーイング,Well-being
+302,ワークライフバランス,Work-Life Balance
+303,育児休業,Childcare Leave
+304,育児休業取得率,Childcare Leave Acquisition Rate
+305,有給休暇取得率,Paid Leave Utilization Rate
+306,離職率,Turnover Rate
+307,採用,Recruitment
+308,人材育成,Human Resource Development
+309,研修,Training
+310,リスキリング,Reskilling
+311,タレントマネジメント,Talent Management
+312,退職給付制度,Retirement Benefit Plan
+313,確定拠出年金,Defined Contribution Pension Plan
+314,確定給付年金,Defined Benefit Pension Plan
+315,持株会,Employee Stock Ownership Plan (ESOP)
+316,リスク管理,Risk Management
+317,リスクマネジメント,Risk Management
+318,リスクアペタイト,Risk Appetite
+319,リスク許容度,Risk Tolerance
+320,ERM,Enterprise Risk Management
+321,地政学的リスク,Geopolitical Risk
+322,サイバーリスク,Cyber Risk
+323,情報セキュリティリスク,Information Security Risk
+324,コンプライアンスリスク,Compliance Risk
+325,法的リスク,Legal Risk
+326,規制リスク,Regulatory Risk
+327,オペレーショナルリスク,Operational Risk
+328,流動性リスク,Liquidity Risk
+329,信用リスク,Credit Risk
+330,市場リスク,Market Risk
+331,為替リスク,Foreign Exchange Risk
+332,金利リスク,Interest Rate Risk
+333,商品価格リスク,Commodity Price Risk
+334,自然災害リスク,Natural Disaster Risk
+335,パンデミックリスク,Pandemic Risk
+336,カントリーリスク,Country Risk
+337,BCP,Business Continuity Plan
+338,事業継続計画,Business Continuity Plan (BCP)
+339,会計基準,Accounting Standards
+340,発生主義,Accrual Basis
+341,現金主義,Cash Basis
+342,費用収益対応の原則,Matching Principle
+343,保守主義の原則,Conservatism Principle
+344,重要性の原則,Materiality Principle
+345,継続企業の前提,Going Concern Assumption
+346,のれんの減損,Goodwill Impairment
+347,固定資産の減損,Fixed Asset Impairment
+348,引当金,Allowance / Reserve
+349,貸倒引当金,Allowance for Doubtful Accounts
+350,賞与引当金,Bonus Reserve
+351,役員退職慰労引当金,Reserve for Director Retirement Allowances
+352,税効果会計,Tax Effect Accounting
+353,繰延税金,Deferred Tax
+354,一時差異,Temporary Difference
+355,永久差異,Permanent Difference
+356,実効税率,Effective Tax Rate
+357,法定実効税率,Statutory Effective Tax Rate
+358,移転価格税制,Transfer Pricing Rules
+359,タックスヘイブン対策税制,Tax Haven Countermeasure Rules
+360,法人税,Corporate Tax
+361,消費税,Consumption Tax
+362,固定資産税,Property Tax
+363,減価償却方法,Depreciation Method
+364,定額法,Straight-line Method
+365,定率法,Declining Balance Method
+366,耐用年数,Useful Life
+367,残存価額,Residual Value
+368,棚卸資産の評価方法,Inventory Valuation Method
+369,先入先出法,First-In First-Out (FIFO)
+370,移動平均法,Moving Average Method
+371,時価評価,Fair Value Measurement
+372,取得原価,Historical Cost / Acquisition Cost
+373,公正価値,Fair Value
+374,使用価値,Value in Use
+375,正味売却可能価額,Net Realizable Value
+376,セグメント情報,Segment Information
+377,セグメント利益,Segment Profit
+378,セグメント資産,Segment Assets
+379,連結調整,Consolidation Adjustment
+380,内部取引消去,Elimination of Intercompany Transactions
+381,少数株主持分,Non-controlling Interests
+382,持分法,Equity Method
+383,為替換算調整勘定,Foreign Currency Translation Adjustments
+384,IR,Investor Relations
+385,インベスター・リレーションズ,Investor Relations
+386,アナリスト,Analyst
+387,機関投資家,Institutional Investor
+388,個人投資家,Individual Investor
+389,外国人投資家,Foreign Investor
+390,アクティビスト,Activist Investor
+391,決算説明会,Earnings Presentation / Earnings Call
+392,IRミーティング,IR Meeting
+393,証券取引所,Stock Exchange
+394,東京証券取引所,Tokyo Stock Exchange (TSE)
+395,プライム市場,Prime Market
+396,スタンダード市場,Standard Market
+397,グロース市場,Growth Market
+398,上場廃止,Delisting
+399,株式公開,IPO (Initial Public Offering)
+400,上場,Listing
+401,セカンダリーオファリング,Secondary Offering
+402,ロードショー,Roadshow
+403,アナリスト向け説明会,Analyst Briefing
+404,企業情報,Company Information
+405,事業の概況,Overview of Business
+406,事業の内容,Description of Business
+407,関係会社の状況,Status of Affiliates
+408,従業員の状況,Employee Status
+409,事業等のリスク,Business Risks
+410,経営上の重要な契約等,Significant Management Contracts
+411,研究開発活動,Research and Development Activities
+412,設備の状況,Facilities / Equipment Status
+413,株式等の状況,Share Status
+414,大株主,Major Shareholders
+415,株価の推移,Stock Price Trends
+416,役員の状況,Officer Status
+417,コーポレートガバナンスの状況等,Corporate Governance Status
+418,内部統制報告書,Internal Control Report
+419,MD&A,Management's Discussion and Analysis
+420,サステナビリティに関する考え方及び取組,Sustainability Approach and Initiatives
+421,財務ハイライト,Financial Highlights
+422,経営成績の分析,Analysis of Business Results
+423,財政状態の分析,Analysis of Financial Position
+424,キャッシュフローの状況,Cash Flow Analysis
+425,業績予想,Earnings Forecast
+426,業績修正,Earnings Revision
+427,通期業績予想,Full-year Earnings Forecast
+428,第2四半期業績予想,Second Quarter Earnings Forecast
+429,配当予想,Dividend Forecast
+430,配当修正,Dividend Revision
+431,前期比,Year-on-year Change
+432,前四半期比,Quarter-on-quarter Change
+433,達成率,Achievement Rate
+434,業績ハイライト,Earnings Highlights
+435,主要財務指標,Key Financial Indicators
+436,事業の経過及び成果,Progress and Results of Business
+437,直面する課題,Challenges Ahead
+438,設備投資等の状況,Capital Investment Status
+439,重要な親会社及び子会社の状況,Status of Important Parent Company and Subsidiaries
+440,主要な事業内容,Main Business Activities
+441,主要な営業所及び工場,Principal Offices and Factories
+442,資金調達の状況,Financing Status
+443,対処すべき課題,Issues to be Addressed
+444,会社役員の状況,Company Officer Status
+445,会計監査の状況,Audit Status
+446,剰余金の配当,Dividend of Surplus
+447,インターネットインフラ,Internet Infrastructure
+448,クラウドサービス,Cloud Service
+449,ドメイン,Domain
+450,ホスティング,Hosting
+451,セキュリティサービス,Security Service
+452,決済サービス,Payment Service
+453,暗号資産,Cryptocurrency / Virtual Currency
+454,仮想通貨,Virtual Currency / Cryptocurrency
+455,ブロックチェーン,Blockchain
+456,フィンテック,FinTech
+457,アドテクノロジー,Ad Technology
+458,EC,E-commerce
+459,電子商取引,Electronic Commerce (EC)
+460,MAU,Monthly Active Users
+461,DAU,Daily Active Users
+462,ARPU,Average Revenue Per User
+463,LTV,Lifetime Value
+464,チャーンレート,Churn Rate
+465,コンバージョン率,Conversion Rate
+466,ページビュー,Page Views
+467,アクティブユーザー,Active Users
+468,製造小売業,Specialty Store Retailer of Private Label Apparel (SPA)
+469,SPA,Specialty Store Retailer of Private Label Apparel
+470,マーチャンダイジング,Merchandising
+471,品揃え,Assortment
+472,商品開発,Product Development
+473,プライベートブランド,Private Brand (PB)
+474,自社開発商品,In-house Developed Products
+475,坪効率,Sales per Tsubo (Store Efficiency)
+476,既存店売上高,Same-store Sales
+477,新規出店,New Store Openings
+478,退店,Store Closures
+479,在庫回転率,Inventory Turnover Rate
+480,在庫管理,Inventory Management
+481,ロジスティクス,Logistics
+482,SCM,Supply Chain Management
+483,物流センター,Distribution Center
+484,グローバル調達,Global Procurement
+485,石油・天然ガス開発,Oil and Gas Exploration and Production
+486,E&P,Exploration and Production
+487,上流,Upstream
+488,中流,Midstream
+489,下流,Downstream
+490,探鉱,Exploration
+491,開発,Development
+492,生産,Production
+493,埋蔵量,Reserves
+494,確認埋蔵量,Proved Reserves
+495,可採年数,Reserve Life
+496,液化天然ガス,Liquefied Natural Gas (LNG)
+497,LNG,Liquefied Natural Gas
+498,原油,Crude Oil
+499,天然ガス,Natural Gas
+500,石油換算バレル,Barrels of Oil Equivalent (BOE)
+501,エネルギートランジション,Energy Transition
+502,カーボンオフセット,Carbon Offset
+503,CCS,Carbon Capture and Storage
+504,CCUS,"Carbon Capture, Utilization and Storage"
+505,水素,Hydrogen
+506,アンモニア,Ammonia
+507,再生可能エネルギー事業,Renewable Energy Business
+508,受託手数料,Brokerage Commission
+509,引受手数料,Underwriting Fee
+510,投資銀行業務,Investment Banking
+511,ウェルスマネジメント,Wealth Management
+512,アセットマネジメント,Asset Management
+513,リテール,Retail
+514,ホールセール,Wholesale
+515,マーケット部門,Markets Division
+516,フィー収入,Fee Revenue
+517,純営業収益,Net Operating Revenue
+518,自己資本規制比率,Capital Adequacy Ratio (Securities)
+519,バーゼル規制,Basel Regulations
+520,顧客資産残高,Assets Under Management / Client Assets
+521,ファッションEC,Fashion E-commerce
+522,取扱高,Gross Merchandise Value (GMV)
+523,受注高,Order Value
+524,テイクレート,Take Rate
+525,出店ブランド数,Number of Brands Listed
+526,アクティブユーザー数,Number of Active Users
+527,1人当たり購入単価,Average Purchase Price per User
+528,購入者数,Number of Buyers
+529,購入回数,Number of Purchases
+530,計測技術,Measurement Technology
+531,水産事業,Marine Products Business
+532,食品事業,Food Business
+533,冷凍食品,Frozen Food
+534,養殖,Aquaculture
+535,漁業,Fishery
+536,食品安全,Food Safety
+537,トレーサビリティ,Traceability
+538,コールドチェーン,Cold Chain
+539,健康食品,Health Food
+540,機能性食品,Functional Food
+541,PDCA,Plan-Do-Check-Act
+542,KPI,Key Performance Indicator
+543,KGI,Key Goal Indicator
+544,OKR,Objectives and Key Results
+545,ベンチマーク,Benchmark
+546,ベストプラクティス,Best Practice
+547,バランスト・スコアカード,Balanced Scorecard (BSC)
+548,ステークホルダー,Stakeholder
+549,株主,Shareholder
+550,取引先,Business Partner / Client
+551,顧客,Customer
+552,従業員,Employee
+553,地域社会,Community
+554,規制当局,Regulatory Authority
+555,ブランド価値,Brand Value
+556,レピュテーション,Reputation
+557,イノベーション,Innovation
+558,研究開発,Research and Development (R&D)
+559,知的財産,Intellectual Property
+560,特許,Patent
+561,商標,Trademark
+562,著作権,Copyright
+563,フランチャイズ,Franchise
+564,ライセンス,License
+565,アウトソーシング,Outsourcing
+566,BPO,Business Process Outsourcing
+567,シェアードサービス,Shared Services
+568,コーポレートベンチャーキャピタル,Corporate Venture Capital (CVC)
+569,スタートアップ投資,Startup Investment
+570,オープンイノベーション,Open Innovation
+571,アクセラレーター,Accelerator
+572,インキュベーター,Incubator
+573,資金調達,Fundraising / Financing
+574,デット,Debt
+575,エクイティ,Equity
+576,ハイブリッド,Hybrid
+577,シンジケートローン,Syndicated Loan
+578,コミットメントライン,Commitment Line
+579,当座貸越,Overdraft
+580,CPプログラム,Commercial Paper Program
+581,MTNプログラム,Medium-term Note Program
+582,格付,Credit Rating
+583,格付機関,Rating Agency
+584,ムーディーズ,Moody's
+585,S&P,S&P Global Ratings
+586,フィッチ,Fitch Ratings
+587,格付格下げ,Rating Downgrade
+588,格付格上げ,Rating Upgrade
+589,財務制限条項,Financial Covenant
+590,クロスデフォルト,Cross Default
+591,財務健全性,Financial Soundness
+592,法令遵守,Legal Compliance
+593,独占禁止法,Antitrust Law / Competition Law
+594,個人情報保護法,Personal Information Protection Law
+595,GDPR,General Data Protection Regulation
+596,労働基準法,Labor Standards Act
+597,会社法,Companies Act
+598,金融商品取引法,Financial Instruments and Exchange Act
+599,内部者取引,Insider Trading
+600,反贈収賄,Anti-bribery
+601,贈収賄防止,Anti-corruption
+602,マネーロンダリング対策,Anti-money Laundering (AML)
+603,内部通報制度,Internal Whistleblowing System
+604,ハラスメント防止,Harassment Prevention
+605,情報管理,Information Management
+606,データガバナンス,Data Governance
+607,売上成長率,Revenue Growth Rate
+608,利益成長率,Profit Growth Rate
+609,CAGR,Compound Annual Growth Rate
+610,市場シェア,Market Share
+611,顧客満足度,Customer Satisfaction
+612,NPS,Net Promoter Score
+613,顧客獲得コスト,Customer Acquisition Cost (CAC)
+614,顧客生涯価値,Customer Lifetime Value (LTV/CLV)
+615,解約率,Churn Rate
+616,継続率,Retention Rate
+617,稼働率,Utilization Rate / Occupancy Rate
+618,設備稼働率,Capacity Utilization Rate
