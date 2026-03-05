@@ -14895,6 +14895,86 @@ No,日本語名,英語名
 14894,ロジック・ツリー,
 14895,論理展開,
 14896,返報性,
+18321,目標株価,Target Price
+18322,投資判断,Investment Rating
+18323,買い推奨,Buy Recommendation
+18324,売り推奨,Sell Recommendation
+18325,中立,Neutral
+18326,アップグレード,Upgrade
+18327,ダウングレード,Downgrade
+18328,カバレッジ開始,Initiation of Coverage
+18329,コンセンサス,Consensus
+18330,業績予想,Earnings Forecast
+18331,Strong Buy,
+18332,Outperform,
+18333,Underperform,
+18334,Overweight,
+18335,Underweight,
+18336,アナリストレポート,Analyst Report
+18337,セルサイドアナリスト,Sell-side Analyst
+18338,バイサイドアナリスト,Buy-side Analyst
+18339,レポート発行,Report Issuance
+18340,アップサイド,Upside
+18341,ダウンサイド,Downside
+18342,ポテンシャルリターン,Potential Return
+18343,リスク要因,Risk Factors
+18344,投資テーマ,Investment Theme
+18345,セクターウェイト,Sector Weight
+18346,通期予想,Full-Year Forecast
+18347,進捗率,Progress Rate
+18348,黒字転換,Turnaround to Profit
+18349,赤字転換,Turnaround to Loss
+18350,増収増益,Revenue and Profit Growth
+18351,増収減益,"Revenue Growth, Profit Decline"
+18352,減収増益,"Revenue Decline, Profit Growth"
+18353,減収減益,Revenue and Profit Decline
+18354,業績修正,Earnings Revision
+18355,配当予想,Dividend Forecast
+18356,営業利益率,Operating Profit Margin
+18357,純利益率,Net Profit Margin
+18358,EBIT,Earnings Before Interest and Taxes
+18359,セグメント別業績,Segment Performance
+18360,地域別売上,Sales by Region
+18361,製品別売上,Sales by Product
+18362,取引時間,Trading Hours
+18363,板情報,Order Book
+18364,ブックビルディング,Book Building
+18365,消却,Share Cancellation
+18366,剰余金配当,Dividend from Surplus
+18367,期末配当,Year-End Dividend
+18368,個人投資家,Individual / Retail Investor
+18369,信用スプレッド,Credit Spread
+18370,シータ,Theta
+18371,プット,Put
+18372,コール,Call
+18373,行使価格,Strike Price / Exercise Price
+18374,レバレッジ,Leverage
+18375,証拠金取引,Margin Trading
+18376,友好的買収,Friendly Acquisition
+18377,スクイーズアウト,Squeeze-Out
+18378,買収プレミアム,Acquisition Premium
+18379,EV/EBITDA,
+18380,株式価値,Equity Value
+18381,モメンタム投資,Momentum Investing
+18382,PEGレシオ,PEG Ratio
+18383,EV/EBIT,
+18384,PCR,Price-to-Cash-Flow Ratio
+18385,ネットDEレシオ,Net D/E Ratio
+18386,単純移動平均,Simple Moving Average
+18387,指数移動平均,Exponential Moving Average
+18388,52週高値,52-Week High
+18389,52週安値,52-Week Low
+18390,MSCIワールド,MSCI World
+18391,新興国株式,Emerging Market Equities
+18392,ESG,"Environmental, Social, and Governance"
+18393,ソーシャルボンド,Social Bond
+18394,サステナビリティボンド,Sustainability Bond
+18395,TCFD,Task Force on Climate-related Financial Disclosures
+18396,炭素税,Carbon Tax
+18397,カーボンニュートラル,Carbon Neutral
+18398,スマートコントラクト,Smart Contract
+18399,電子マネー,Electronic Money
+18400,ロボアドバイザー,Robo-Advisor
 14897,,
 14898,,
 14899,,
