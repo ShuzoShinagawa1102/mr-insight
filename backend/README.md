@@ -1,4 +1,2 @@
 # backend
-
-将来的にAPIプロキシや認証などを実装するための領域です（現時点では未実装）。
-
+implement by Django
