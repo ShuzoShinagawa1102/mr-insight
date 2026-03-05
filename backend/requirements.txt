@@ -1,0 +1,5 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+pydantic>=2.0
+python-decouple>=3.8
+openai-agents>=0.0.7
