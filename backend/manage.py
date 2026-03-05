@@ -6,12 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mr_insight_backend.settings")
-
-    # Make the src/ directory importable as a Python package root
-    src_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src")
-    if src_dir not in sys.path:
-        sys.path.insert(0, src_dir)
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.development")
 
     try:
         from django.core.management import execute_from_command_line

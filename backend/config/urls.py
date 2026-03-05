@@ -1,5 +1,5 @@
 """
-URL configuration for mr_insight_backend project.
+URL configuration for mr-insight project.
 """
 
 from django.contrib import admin

@@ -1,7 +1,7 @@
 """
 URL patterns for the rag application.
 
-Mounted under /api/ by mr_insight_backend/urls.py.
+Mounted under /api/ by config/urls.py.
 """
 
 from rest_framework.routers import DefaultRouter
