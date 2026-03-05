@@ -1,644 +1,386 @@
 # ドメインモデル
 
-## 概念モデル
+## レビュー所見と改善方針
+
+旧モデルは約45クラスを単一の図に詰め込んでいたため，「プロ投資家が稼げる判断をするための構造」が見えにくかった．
+以下の観点で整理・削減した（約30クラスに集約）：
+
+| 削減・統合の内容 | 理由 |
+|---|---|
+| `LegalEntity` を `組織` に吸収 | 法人登記情報は `組織` の属性で十分 |
+| `CapTableSnapshot` / `Covenant` を削除 | 持分スナップショットは `持分保有` の基準日で代替；コベナンツは `負債証書` の属性へ |
+| `Board` / `Committee` / `CompensationPlan` / `RelatedPartyRelationship` を削除 | ガバナンスは「誰が席に就いているか」だけに絞る |
+| `RevenueModel` / `CustomerSegment` / `Channel` / `Facility` / `Supplier` / `ValueChainRelation` を削除 | 事業構造の詳細は運用フェーズで拡張；コアドメインに不要 |
+| `MarketShareObservation` / `PricingObservation` を `指標` に統合 | 観測値の種別は `指標名` 属性で区別できる |
+| `ReportingPeriod` を `開示書類` の属性へ | 一対一の期間情報はクラス分離不要 |
+| `StatementLineItem` / `ReportedValue` / `NormalizedValue` を `財務数値` に統合 | 勘定科目・報告値・正規化値は単一レコードで管理 |
+| `MetricDefinition` / `MetricObservation` / `Benchmark` / `BenchmarkValue` を `指標` に統合 | 定義と観測を分ける必要はドメイン層では不要 |
+| `Restatement` / `AuditOpinion` / `Transcript` / `NewsItem` を削除 | 開示コンテキストは `コーポレートイベント` と `原典文書` で代替 |
+| `ResearchProject` を削除，`投資仮説` に統合 | 調査案件は仮説の集合体であり，独立エンティティ不要 |
+| `ValuationModel` / `ValuationOutput` / `Assumption` を `バリュエーション` / `シナリオ` に統合 | 手法・出力・前提を一つのバリュエーションレコードで表現 |
+| `RiskExposure` / `RegulatoryEvent` / `LitigationCase` を削除 | リスクの定量値・規制・訴訟は `リスク` 属性と `コーポレートイベント` で代替 |
+| `ExtractionRun` / `DataQualityIssue` / `AsOfSnapshot` / `VersionedRecord` を削除 | インフラ・横断関心事はドメインモデルから除外し，実装設計で対応 |
+
+---
+
+## 概念モデル（改訂版）
+
 ```mermaid
 classDiagram
 direction LR
 
 %% =========================
-%% Core Registry
+%% コア（主体）
 %% =========================
-class Organization {
+class 組織 {
     +UUID id
-    +string canonicalName
-    +string localName
-    +string countryCode
-    +string status
-    +date foundedDate
-    +date dissolvedDate
+    +string 正式名称
+    +string 国コード
+    +string ステータス
+    +date 設立日
+    +date 解散日
 }
-class Company {
-    +string companyType
-    +bool isListed
-    +string primaryIndustryCode
+class 企業 {
+    +string 企業タイプ
+    +bool 上場フラグ
+    +string 業種コード
 }
-class Investor {
-    +string investorType
-    +string strategy
-    +string domicile
+class 投資家 {
+    +string 投資家タイプ
+    +string 投資戦略
+    +string 所在国
 }
-class Person {
+class 人物 {
     +UUID id
-    +string fullName
-    +string nationality
-    +date birthDate
+    +string 氏名
+    +string 国籍
+    +date 生年月日
 }
-class LegalEntity {
+class 証券 {
     +UUID id
-    +string legalName
-    +string registrationNo
-    +string jurisdiction
-    +date incorporationDate
+    +string 証券タイプ
+    +string ISIN
+    +string ティッカー
+    +string 通貨
 }
-class Exchange {
+class 上場 {
     +UUID id
-    +string name
-    +string micCode
-    +string countryCode
+    +date 上場日
+    +date 上場廃止日
+    +string 市場区分
+    +string ステータス
 }
-class Security {
+class 取引所 {
     +UUID id
-    +string securityType
-    +string isin
-    +string ticker
-    +string currency
-}
-class Listing {
-    +UUID id
-    +date listedDate
-    +date delistedDate
-    +string board
-    +string status
+    +string 名称
+    +string MICコード
+    +string 国コード
 }
 
-Organization <|-- Company
-Organization <|-- Investor
-Company "1" --> "*" LegalEntity : owns/controls
-Company "1" --> "*" Security : issues
-Security "1" --> "*" Listing : listed_as
-Listing "*" --> "1" Exchange : on
-Person "*" --> "*" Organization : related_to
+組織 <|-- 企業
+組織 <|-- 投資家
+企業 "1" --> "*" 証券 : 発行
+証券 "1" --> "*" 上場 : 上場先
+上場 "*" --> "1" 取引所 : 市場
+人物 "*" --> "*" 組織 : 関与
 
 %% =========================
-%% Ownership / Capital
+%% 所有・資本
 %% =========================
-class InvestmentTransaction {
+class 投資取引 {
     +UUID id
-    +date announcedAt
-    +date closedAt
-    +decimal amount
-    +string currency
-    +decimal preMoneyValuation
-    +decimal postMoneyValuation
-    +string transactionType
+    +date 公表日
+    +date クロージング日
+    +decimal 金額
+    +string 通貨
+    +decimal 投資前バリュエーション
+    +decimal 投資後バリュエーション
+    +string 取引タイプ
 }
-class FundingRound {
+class 資金調達ラウンド {
     +UUID id
-    +string roundLabel
-    +date roundDate
-    +decimal amount
-    +string currency
-    +decimal valuation
+    +string ラウンド区分
+    +date 実施日
+    +decimal 調達額
+    +decimal バリュエーション
+    +string 通貨
 }
-class OwnershipHolding {
+class 持分保有 {
     +UUID id
-    +decimal shares
-    +decimal ownershipPct
-    +decimal votingPct
-    +date effectiveFrom
-    +date effectiveTo
-    +date asOfDate
+    +decimal 保有株数
+    +decimal 持分比率
+    +decimal 議決権比率
+    +date 基準日
 }
-class CapTableSnapshot {
+class 負債証書 {
     +UUID id
-    +date asOfDate
-    +string sourceType
-}
-class DebtInstrument {
-    +UUID id
-    +string debtType
-    +decimal principal
-    +decimal interestRate
-    +date maturityDate
-    +string currency
-}
-class Covenant {
-    +UUID id
-    +string covenantType
-    +string formula
-    +string threshold
-    +string breachStatus
+    +string 負債タイプ
+    +decimal 元本
+    +decimal 金利
+    +date 満期日
+    +string 通貨
+    +string コベナンツ条件
 }
 
-Investor "1" --> "*" InvestmentTransaction : executes
-InvestmentTransaction "*" --> "1" Company : target
-InvestmentTransaction "*" --> "*" Security : acquires/disposes
-FundingRound "1" --> "*" InvestmentTransaction : contains
-Investor "1" --> "*" OwnershipHolding : holds
-OwnershipHolding "*" --> "1" Security : security
-OwnershipHolding "*" --> "1" Company : issuer
-Company "1" --> "*" CapTableSnapshot : has
-CapTableSnapshot "1" --> "*" OwnershipHolding : snapshot_items
-Company "1" --> "*" DebtInstrument : has_debt
-DebtInstrument "1" --> "*" Covenant : subject_to
+投資家 "1" --> "*" 投資取引 : 実行
+投資取引 "*" --> "1" 企業 : 対象
+投資取引 "*" --> "*" 証券 : 取得または売却
+資金調達ラウンド "1" --> "*" 投資取引 : 含む
+投資家 "1" --> "*" 持分保有 : 保有
+持分保有 "*" --> "1" 企業 : 発行体
+企業 "1" --> "*" 負債証書 : 保有
 
 %% =========================
-%% Governance
+%% ガバナンス
 %% =========================
-class Board {
+class 取締役会席 {
     +UUID id
-    +date effectiveFrom
-    +date effectiveTo
+    +string 席タイプ
+    +date 就任日
+    +date 退任日
 }
-class BoardSeat {
+class 役員 {
     +UUID id
-    +string seatType
-    +date startDate
-    +date endDate
-}
-class Committee {
-    +UUID id
-    +string committeeType
-}
-class OfficerRole {
-    +UUID id
-    +string title
-    +date startDate
-    +date endDate
-}
-class CompensationPlan {
-    +UUID id
-    +string planType
-    +decimal targetAmount
-    +string currency
-}
-class RelatedPartyRelationship {
-    +UUID id
-    +string relationType
-    +date effectiveFrom
-    +date effectiveTo
+    +string 役職名
+    +date 就任日
+    +date 退任日
 }
 
-Company "1" --> "*" Board : has_board
-Board "1" --> "*" BoardSeat : seats
-BoardSeat "*" --> "1" Person : occupied_by
-Board "1" --> "*" Committee : has_committee
-Company "1" --> "*" OfficerRole : appoints
-OfficerRole "*" --> "1" Person : held_by
-OfficerRole "1" --> "*" CompensationPlan : compensated_by
-Organization "*" --> "*" RelatedPartyRelationship : related_party
+企業 "1" --> "*" 取締役会席 : 設置
+取締役会席 "*" --> "1" 人物 : 着席
+企業 "1" --> "*" 役員 : 任命
+役員 "*" --> "1" 人物 : 担当
 
 %% =========================
-%% Business Architecture
+%% 事業構造
 %% =========================
-class BusinessSegment {
+class 事業区分 {
     +UUID id
-    +string name
-    +string segmentType
-    +date effectiveFrom
-    +date effectiveTo
+    +string 名称
+    +string 区分タイプ
+    +date 開始日
+    +date 終了日
 }
-class ProductService {
+class 製品サービス {
     +UUID id
-    +string name
-    +string category
-    +string lifecycleStage
+    +string 名称
+    +string カテゴリ
+    +string ライフサイクル
 }
-class RevenueModel {
+class 市場 {
     +UUID id
-    +string modelType
+    +string 名称
+    +string 定義
+    +string 通貨
 }
-class CustomerSegment {
+class 業種分類 {
     +UUID id
-    +string name
-    +string segmentRule
+    +string 分類体系
+    +string コード
+    +string ラベル
 }
-class Channel {
+class 競合関係 {
     +UUID id
-    +string channelType
-}
-class Geography {
-    +UUID id
-    +string name
-    +string geoType
-}
-class Facility {
-    +UUID id
-    +string facilityType
-    +string countryCode
-    +decimal capacity
-}
-class Supplier {
-    +UUID id
-    +string supplierType
-    +string countryCode
-}
-class ValueChainRelation {
-    +UUID id
-    +string relationType
-    +date effectiveFrom
-    +date effectiveTo
+    +string 関係タイプ
+    +string 根拠
+    +date 有効開始日
+    +date 有効終了日
 }
 
-Company "1" --> "*" BusinessSegment : operates
-BusinessSegment "1" --> "*" ProductService : offers
-BusinessSegment "*" --> "1" RevenueModel : monetized_by
-BusinessSegment "*" --> "*" CustomerSegment : serves
-BusinessSegment "*" --> "*" Channel : uses
-BusinessSegment "*" --> "*" Geography : active_in
-Company "1" --> "*" Facility : owns/operates
-Company "1" --> "*" Supplier : contracts
-Company "1" --> "*" ValueChainRelation : value_chain_edges
-Supplier "1" --> "*" ValueChainRelation : source_side
-BusinessSegment "1" --> "*" ValueChainRelation : target_side
+企業 "1" --> "*" 事業区分 : 運営
+事業区分 "1" --> "*" 製品サービス : 提供
+事業区分 "*" --> "*" 市場 : 参入
+企業 "*" --> "*" 業種分類 : 分類
+企業 "1" --> "*" 競合関係 : 競合エッジ
+競合関係 "*" --> "1" 企業 : 相手先
 
 %% =========================
-%% Market / Competition
+%% 財務・指標
 %% =========================
-class IndustryTaxonomy {
+class 開示書類 {
     +UUID id
-    +string taxonomyName
-    +string code
-    +string label
+    +string 書類タイプ
+    +date 公表日
+    +string 会計基準
+    +string 監査人
+    +date 期間開始日
+    +date 期間終了日
 }
-class Market {
+class 財務諸表 {
     +UUID id
-    +string name
-    +string definition
-    +string currency
+    +string 諸表タイプ
+    +string 連結区分
 }
-class CompetitorRelation {
+class 財務数値 {
     +UUID id
-    +string relationType
-    +string rationale
-    +date effectiveFrom
-    +date effectiveTo
+    +string 勘定科目コード
+    +string ラベル
+    +decimal 報告値
+    +decimal 正規化値
+    +string 通貨
+    +int スケール
+    +date 観測日
 }
-class MarketShareObservation {
+class 指標 {
     +UUID id
-    +date asOfDate
-    +decimal sharePct
-    +string methodology
+    +string 指標名
+    +string 計算式
+    +decimal 値
+    +string 単位
+    +date 観測日
+    +string 値タイプ
 }
-class PricingObservation {
+class 業績予想 {
     +UUID id
-    +date observedAt
-    +decimal price
-    +string currency
-    +string unit
-    +string condition
+    +string 指標名
+    +decimal 下限
+    +decimal 上限
+    +string 単位
+    +date 発表日
+}
+class コーポレートイベント {
+    +UUID id
+    +string イベントタイプ
+    +date 公表日
+    +date 効力発生日
+    +string ステータス
+    +string 概要
 }
 
-Company "*" --> "*" IndustryTaxonomy : classified_as
-BusinessSegment "*" --> "*" Market : addresses
-Company "*" --> "*" Company : competes_with
-Company "1" --> "*" CompetitorRelation : competition_edges
-CompetitorRelation "*" --> "1" Company : against
-Market "1" --> "*" MarketShareObservation : has_share_obs
-Company "1" --> "*" MarketShareObservation : observed_company
-ProductService "1" --> "*" PricingObservation : priced_at
-
-%% =========================
-%% Financials / Accounting
-%% =========================
-class ReportingPeriod {
-    +UUID id
-    +string periodType
-    +date startDate
-    +date endDate
-    +date asOfDate
-}
-class Filing {
-    +UUID id
-    +string filingType
-    +date publishedAt
-    +string accountingStandard
-    +string auditor
-    +string language
-}
-class FinancialStatement {
-    +UUID id
-    +string statementType
-    +string consolidation
-    +string basisType
-}
-class StatementLineItem {
-    +UUID id
-    +string code
-    +string label
-    +string lineType
-}
-class ReportedValue {
-    +UUID id
-    +decimal value
-    +string currency
-    +string unit
-    +int scale
-    +date observedAt
-}
-class NormalizedValue {
-    +UUID id
-    +decimal value
-    +string currency
-    +string unit
-    +string normalizationRuleSet
-    +date createdAt
-}
-class Restatement {
-    +UUID id
-    +string reason
-    +date announcedAt
-}
-class AuditOpinion {
-    +UUID id
-    +string opinionType
-    +string emphasisMatter
-}
-
-Company "1" --> "*" Filing : files
-Filing "*" --> "1" ReportingPeriod : covers
-Filing "1" --> "*" FinancialStatement : contains
-FinancialStatement "1" --> "*" StatementLineItem : has_lines
-StatementLineItem "1" --> "*" ReportedValue : reported_values
-StatementLineItem "1" --> "*" NormalizedValue : normalized_values
-Filing "1" --> "*" Restatement : may_restate
-Filing "1" --> "0..1" AuditOpinion : audited_by
-BusinessSegment "1" --> "*" FinancialStatement : segment_financials
+企業 "1" --> "*" 開示書類 : 提出
+開示書類 "1" --> "*" 財務諸表 : 含む
+財務諸表 "1" --> "*" 財務数値 : 明細
+事業区分 "1" --> "*" 財務諸表 : 区分財務
+企業 "1" --> "*" 指標 : 観測
+事業区分 "1" --> "*" 指標 : 区分指標
+市場 "1" --> "*" 指標 : 市場指標
+企業 "1" --> "*" 業績予想 : 発表
+企業 "1" --> "*" コーポレートイベント : 発生
+コーポレートイベント "*" --> "*" 事業区分 : 影響
+コーポレートイベント "*" --> "*" 人物 : 影響
 
 %% =========================
-%% Metrics / Targets / Benchmarks
+%% リスク・ESG
 %% =========================
-class MetricDefinition {
+class リスク {
     +UUID id
-    +string name
-    +string formula
-    +string unit
-    +string category
-    +string scopeType
+    +string カテゴリ
+    +string タイトル
+    +string 説明
+    +int 発生可能性
+    +int 影響度
+    +string ステータス
 }
-class MetricObservation {
+class ESG指標 {
     +UUID id
-    +decimal value
-    +string unit
-    +date observedAt
-    +string valueType
-}
-class Benchmark {
-    +UUID id
-    +string benchmarkType
-    +string methodology
-}
-class BenchmarkValue {
-    +UUID id
-    +decimal value
-    +date asOfDate
+    +string 指標名
+    +decimal 値
+    +string 単位
+    +date 基準日
+    +string フレームワーク
 }
 
-MetricDefinition "1" --> "*" MetricObservation : instances
-Company "1" --> "*" MetricObservation : company_metric
-BusinessSegment "1" --> "*" MetricObservation : segment_metric
-ProductService "1" --> "*" MetricObservation : product_metric
-Market "1" --> "*" MetricObservation : market_metric
-Benchmark "1" --> "*" BenchmarkValue : values
-MetricDefinition "1" --> "*" Benchmark : benchmarked_by
+企業 "1" --> "*" リスク : 保有
+企業 "1" --> "*" ESG指標 : 報告
 
 %% =========================
-%% Risk / Compliance / ESG
+%% 分析・意思決定
 %% =========================
-class RiskItem {
+class 投資仮説 {
     +UUID id
-    +string riskCategory
-    +string title
-    +string description
-    +int likelihoodScore
-    +int impactScore
-    +string status
+    +string スタンス
+    +string 仮説文
+    +date 作成日
+    +date 更新日
+    +string ステータス
 }
-class RiskExposure {
+class 仮説 {
     +UUID id
-    +date asOfDate
-    +decimal exposureValue
-    +string currency
+    +string 命題文
+    +string 検証方法
+    +string 棄却条件
+    +string ステータス
 }
-class RegulatoryEvent {
+class シナリオ {
     +UUID id
-    +string regulator
-    +string eventType
-    +date eventDate
-    +string status
+    +string シナリオ区分
+    +decimal 確率
+    +decimal 永続成長率
+    +decimal WACC
 }
-class LitigationCase {
+class バリュエーション {
     +UUID id
-    +string caseType
-    +string jurisdiction
-    +date filedDate
-    +string status
+    +string 手法
+    +date バリュエーション日
+    +decimal 株式価値
+    +decimal 事業価値
+    +decimal 目標株価
+    +string 通貨
 }
-class ESGMetric {
+class 推奨アクション {
     +UUID id
-    +string metricName
-    +decimal value
-    +string unit
-    +date asOfDate
-    +string framework
+    +string アクション
+    +string 確信度
+    +date 発行日
+    +string 根拠
+}
+class 監視ルール {
+    +UUID id
+    +string トリガー条件
+    +string 発動時アクション
+    +string ステータス
 }
 
-Company "1" --> "*" RiskItem : has_risks
-RiskItem "1" --> "*" RiskExposure : quantified_by
-Company "1" --> "*" RegulatoryEvent : receives
-Company "1" --> "*" LitigationCase : involved_in
-Company "1" --> "*" ESGMetric : reports
-
-%% =========================
-%% Events / News / Guidance
-%% =========================
-class CorporateEvent {
-    +UUID id
-    +string eventType
-    +date announcedAt
-    +date effectiveAt
-    +string status
-    +string summary
-}
-class Guidance {
-    +UUID id
-    +string metricName
-    +decimal low
-    +decimal high
-    +string unit
-    +date issuedAt
-}
-class Transcript {
-    +UUID id
-    +string transcriptType
-    +date eventDate
-    +string language
-}
-class NewsItem {
-    +UUID id
-    +string headline
-    +string publisher
-    +date publishedAt
-    +string sentimentLabel
-}
-
-Company "1" --> "*" CorporateEvent : has_events
-Company "1" --> "*" Guidance : issues
-Company "1" --> "*" Transcript : appears_in
-Company "1" --> "*" NewsItem : mentioned_in
-CorporateEvent "*" --> "*" BusinessSegment : affects
-CorporateEvent "*" --> "*" Facility : affects
-CorporateEvent "*" --> "*" Person : affects
+投資仮説 "*" --> "1" 企業 : 対象
+投資仮説 "1" --> "*" 仮説 : 分解
+投資仮説 "1" --> "*" シナリオ : 評価
+シナリオ "1" --> "*" バリュエーション : 産出
+投資仮説 "1" --> "*" 推奨アクション : 産出
+投資仮説 "1" --> "*" 監視ルール : 監視
 
 %% =========================
-%% Research / Valuation / Decision
+%% エビデンス（RAG基盤）
 %% =========================
-class ResearchProject {
+class 原典文書 {
     +UUID id
-    +string title
-    +string objective
-    +date createdAt
-    +string status
+    +string 文書タイプ
+    +string タイトル
+    +string URI
+    +string 発行元
+    +date 公表日
+    +string 言語
 }
-class InvestmentThesis {
+class 文書チャンク {
     +UUID id
-    +string thesisStatement
-    +string stance
-    +date createdAt
-    +date revisedAt
-    +string status
+    +int チャンク番号
+    +string コンテンツハッシュ
+    +string 埋め込みモデル
 }
-class Hypothesis {
+class 抽出クレーム {
     +UUID id
-    +string statement
-    +string testMethod
-    +string falsificationCondition
-    +string status
+    +string クレームタイプ
+    +string 主語タイプ
+    +string 述語
+    +string 目的語文字列
+    +decimal 信頼度スコア
+    +date 抽出日時
 }
-class Assumption {
+class エビデンスリンク {
     +UUID id
-    +string name
-    +decimal value
-    +string unit
-    +date effectiveFrom
-    +date effectiveTo
-}
-class Scenario {
-    +UUID id
-    +string scenarioType
-    +decimal probability
-}
-class ValuationModel {
-    +UUID id
-    +string modelType
-    +string currency
-    +date valuationDate
-}
-class ValuationOutput {
-    +UUID id
-    +decimal equityValue
-    +decimal enterpriseValue
-    +decimal targetPrice
-    +string currency
-}
-class Recommendation {
-    +UUID id
-    +string action
-    +string conviction
-    +date issuedAt
-    +string rationale
-}
-class MonitoringRule {
-    +UUID id
-    +string triggerCondition
-    +string actionOnTrigger
-    +string status
+    +string 対象タイプ
+    +UUID 対象ID
+    +string 関係ロール
 }
 
-ResearchProject "1" --> "*" InvestmentThesis : contains
-InvestmentThesis "*" --> "1" Company : on_company
-InvestmentThesis "1" --> "*" Hypothesis : decomposes_to
-Hypothesis "1" --> "*" Assumption : depends_on
-InvestmentThesis "1" --> "*" Scenario : evaluated_by
-Scenario "1" --> "*" Assumption : scenario_assumptions
-Scenario "1" --> "*" ValuationModel : uses
-ValuationModel "1" --> "1..*" ValuationOutput : outputs
-InvestmentThesis "1" --> "*" Recommendation : produces
-InvestmentThesis "1" --> "*" MonitoringRule : monitored_by
+原典文書 "1" --> "*" 文書チャンク : 分割
+文書チャンク "1" --> "*" 抽出クレーム : 抽出
+抽出クレーム "1" --> "*" エビデンスリンク : リンク
 
-%% =========================
-%% Evidence / Provenance / RAG grounding
-%% =========================
-class SourceDocument {
-    +UUID id
-    +string sourceType
-    +string title
-    +string uri
-    +string publisher
-    +date publishedAt
-    +string language
-}
-class DocumentChunk {
-    +UUID id
-    +int chunkIndex
-    +string contentHash
-    +string embeddingModel
-}
-class ExtractedClaim {
-    +UUID id
-    +string claimType
-    +string subjectType
-    +string predicate
-    +string objectText
-    +decimal confidenceScore
-    +date extractedAt
-}
-class EvidenceLink {
-    +UUID id
-    +string targetType
-    +UUID targetId
-    +string relationRole
-}
-class ExtractionRun {
-    +UUID id
-    +string extractorType
-    +string modelName
-    +string promptVersion
-    +date runAt
-}
-class DataQualityIssue {
-    +UUID id
-    +string issueType
-    +string severity
-    +string status
-}
-
-SourceDocument "1" --> "*" DocumentChunk : split_into
-DocumentChunk "1" --> "*" ExtractedClaim : yields
-ExtractionRun "1" --> "*" ExtractedClaim : produced
-ExtractedClaim "1" --> "*" EvidenceLink : linked_to
-SourceDocument "1" --> "*" DataQualityIssue : has_quality_issue
-
-EvidenceLink "*" --> "0..1" Company : references
-EvidenceLink "*" --> "0..1" CorporateEvent : references
-EvidenceLink "*" --> "0..1" MetricObservation : references
-EvidenceLink "*" --> "0..1" ReportedValue : references
-EvidenceLink "*" --> "0..1" NormalizedValue : references
-EvidenceLink "*" --> "0..1" InvestmentThesis : references
-EvidenceLink "*" --> "0..1" Hypothesis : references
-
-%% =========================
-%% Cross-cutting Time/Version semantics
-%% =========================
-class AsOfSnapshot {
-    +UUID id
-    +date asOfDate
-    +string scopeType
-    +UUID scopeId
-}
-class VersionedRecord {
-    +UUID id
-    +int versionNo
-    +date validFrom
-    +date validTo
-    +date recordedAt
-    +bool isCurrent
-}
-
-AsOfSnapshot "1" --> "*" OwnershipHolding : includes
-AsOfSnapshot "1" --> "*" MetricObservation : includes
-AsOfSnapshot "1" --> "*" RiskItem : includes
-VersionedRecord "*" --> "0..1" InvestmentThesis : versions
-VersionedRecord "*" --> "0..1" NormalizedValue : versions
-VersionedRecord "*" --> "0..1" CompetitorRelation : versions
+エビデンスリンク "*" --> "0..1" 企業 : 参照
+エビデンスリンク "*" --> "0..1" コーポレートイベント : 参照
+エビデンスリンク "*" --> "0..1" 財務数値 : 参照
+エビデンスリンク "*" --> "0..1" 指標 : 参照
+エビデンスリンク "*" --> "0..1" リスク : 参照
+エビデンスリンク "*" --> "0..1" 投資仮説 : 参照
+エビデンスリンク "*" --> "0..1" 仮説 : 参照
 ```
