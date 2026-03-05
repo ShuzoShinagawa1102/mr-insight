@@ -9,3 +9,20 @@ scripts/cache
 *.tsbuildinfo
 frontend/scripts/cache
 **/java-practice/out/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+*.sqlite3
+db.sqlite3
