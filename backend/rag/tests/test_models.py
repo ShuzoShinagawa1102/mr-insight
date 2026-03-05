@@ -8,7 +8,7 @@ from decimal import Decimal
 from django.test import TestCase
 from django.utils import timezone as tz
 
-from .models import (
+from rag.models import (
     Company,
     EventFact,
     FactType,

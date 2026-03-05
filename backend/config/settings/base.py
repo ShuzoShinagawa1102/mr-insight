@@ -1,5 +1,7 @@
 """
-Django settings for mr_insight_backend project.
+Base Django settings for mr-insight project.
+
+Environment-specific settings are in development.py and production.py.
 """
 
 from pathlib import Path
@@ -9,16 +11,13 @@ from decouple import config
 # ---------------------------------------------------------------------------
 # Base directories
 # ---------------------------------------------------------------------------
-# manage.py lives in backend/, and src/ is on sys.path via manage.py.
-# BASE_DIR points to backend/src/mr_insight_backend/.
-BASE_DIR = Path(__file__).resolve().parent
+# BASE_DIR points to the backend/ directory (where manage.py lives).
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # ---------------------------------------------------------------------------
 # Security
 # ---------------------------------------------------------------------------
 SECRET_KEY = config("SECRET_KEY", default="django-insecure-change-me-in-production")
-
-DEBUG = config("DEBUG", default=True, cast=bool)
 
 ALLOWED_HOSTS = config(
     "ALLOWED_HOSTS",
@@ -52,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "mr_insight_backend.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
@@ -70,8 +69,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "mr_insight_backend.wsgi.application"
-ASGI_APPLICATION = "mr_insight_backend.asgi.application"
+WSGI_APPLICATION = "config.wsgi.application"
+ASGI_APPLICATION = "config.asgi.application"
 
 # ---------------------------------------------------------------------------
 # Database
@@ -79,7 +78,7 @@ ASGI_APPLICATION = "mr_insight_backend.asgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR.parent.parent.parent / "db.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
@@ -105,6 +104,7 @@ USE_TZ = True
 # Static files
 # ---------------------------------------------------------------------------
 STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # ---------------------------------------------------------------------------
 # Default primary key field type
