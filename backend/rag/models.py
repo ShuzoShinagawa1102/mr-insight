@@ -70,6 +70,22 @@ class RiskKind(models.TextChoices):
     OTHER = "OTHER", "その他"
 
 
+class GlossaryCategory(models.TextChoices):
+    FINANCIAL_STATEMENT = "FINANCIAL_STATEMENT", "財務諸表"
+    KPI = "KPI", "KPI"
+    VALUATION = "VALUATION", "バリュエーション"
+    GOVERNANCE = "GOVERNANCE", "コーポレートガバナンス"
+    MA = "MA", "M&A"
+    ESG = "ESG", "ESG・サステナビリティ"
+    CONSULTING = "CONSULTING", "経営コンサルティング"
+    RISK = "RISK", "リスク管理"
+    ACCOUNTING = "ACCOUNTING", "会計・税務"
+    IR = "IR", "IR・投資家"
+    HUMAN_CAPITAL = "HUMAN_CAPITAL", "人的資本"
+    STRATEGY = "STRATEGY", "経営戦略"
+    OTHER = "OTHER", "その他"
+
+
 # ---------------------------------------------------------------------------
 # Company
 # ---------------------------------------------------------------------------
@@ -391,3 +407,46 @@ class ValuationSnapshot(models.Model):
 
     def __str__(self) -> str:
         return f"{self.company} @ {self.asof}"
+
+
+# ---------------------------------------------------------------------------
+# GlossaryTerm
+# ---------------------------------------------------------------------------
+
+class GlossaryTerm(models.Model):
+    """ドメイン用語集のエントリ
+
+    assets/glossary/ 以下の CSV ファイルから取り込んだ用語を永続化する。
+    DDD の「ユビキタス言語」の参照テーブルとして機能し、指標名・用語の
+    正規化・翻訳に利用する。
+    """
+
+    term_id = models.CharField(
+        max_length=64,
+        unique=True,
+        db_index=True,
+        help_text="外部 ID またはシステム生成 ID",
+    )
+    ja_name = models.CharField(max_length=255, db_index=True, help_text="日本語名")
+    en_name = models.CharField(max_length=255, blank=True, help_text="英語名")
+    category = models.CharField(
+        max_length=32,
+        choices=GlossaryCategory.choices,
+        default=GlossaryCategory.OTHER,
+    )
+    # どの CSV ファイルから取り込んだか（例: "みえるマンドメイン辞書_企業経営"）
+    source = models.CharField(max_length=128, blank=True, help_text="取り込み元ファイル名")
+    description = models.TextField(blank=True, help_text="補足説明")
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "用語集"
+        verbose_name_plural = "用語集一覧"
+        ordering = ["ja_name"]
+
+    def __str__(self) -> str:
+        if self.en_name:
+            return f"{self.ja_name} / {self.en_name}"
+        return self.ja_name

@@ -14,6 +14,8 @@ from rag.models import (
     FactType,
     FinancialStatement,
     Guidance,
+    GlossaryCategory,
+    GlossaryTerm,
     MetricFact,
     PeriodKind,
     RiskFact,
@@ -140,3 +142,51 @@ class ValuationSnapshotModelTest(TestCase):
         snap = ValuationSnapshot.objects.get(snapshot_id="snap_test_001")
         self.assertEqual(snap.asof, date(2025, 3, 31))
         self.assertEqual(snap.per, Decimal("15.5"))
+
+
+class GlossaryTermModelTest(TestCase):
+    def setUp(self):
+        self.term = GlossaryTerm.objects.create(
+            term_id="term_test_001",
+            ja_name="売上高",
+            en_name="Net Sales / Revenue",
+            category=GlossaryCategory.FINANCIAL_STATEMENT,
+            source="みえるマンドメイン辞書_企業経営",
+        )
+
+    def test_glossary_term_str_with_en_name(self):
+        self.assertIn("売上高", str(self.term))
+        self.assertIn("Net Sales / Revenue", str(self.term))
+
+    def test_glossary_term_str_without_en_name(self):
+        term = GlossaryTerm.objects.create(
+            term_id="term_test_002",
+            ja_name="一時所得",
+            en_name="",
+            category=GlossaryCategory.OTHER,
+            source="みえるマン用語辞書",
+        )
+        self.assertEqual(str(term), "一時所得")
+
+    def test_glossary_term_fields(self):
+        t = GlossaryTerm.objects.get(term_id="term_test_001")
+        self.assertEqual(t.ja_name, "売上高")
+        self.assertEqual(t.en_name, "Net Sales / Revenue")
+        self.assertEqual(t.category, GlossaryCategory.FINANCIAL_STATEMENT)
+        self.assertEqual(t.source, "みえるマンドメイン辞書_企業経営")
+
+    def test_glossary_term_unique_term_id(self):
+        from django.db import IntegrityError
+        with self.assertRaises(IntegrityError):
+            GlossaryTerm.objects.create(
+                term_id="term_test_001",
+                ja_name="重複テスト",
+                category=GlossaryCategory.OTHER,
+            )
+
+    def test_glossary_term_default_category(self):
+        term = GlossaryTerm.objects.create(
+            term_id="term_test_003",
+            ja_name="テスト用語",
+        )
+        self.assertEqual(term.category, GlossaryCategory.OTHER)
